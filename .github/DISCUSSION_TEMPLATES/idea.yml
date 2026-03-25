@@ -1,0 +1,60 @@
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 💡 想法分享指南
+        
+        分享您的创意想法，与社区共同探讨和完善：
+        
+        1. **核心想法概述**
+        2. **详细说明和理由**
+        3. **潜在影响和价值**
+        4. **实施建议和挑战**
+  - type: textarea
+    id: idea
+    attributes:
+      label: "您的想法是什么？"
+      description: "简要描述您的核心想法"
+      placeholder: "例如：创建一个硅基生命的情感表达框架..."
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: "详细说明"
+      description: "详细阐述您的想法，包括背景、原理、实现方式等"
+      placeholder: "这个想法基于... 它的工作原理是... 实现方式包括..."
+  - type: textarea
+    id: impact
+    attributes:
+      label: "潜在影响"
+      description: "这个想法可能带来什么影响和价值？"
+      placeholder: "可能帮助... 能够解决... 价值在于..."
+  - type: textarea
+    id: implementation
+    attributes:
+      label: "实施建议"
+      description: "如何实施这个想法？可能遇到什么挑战？"
+      placeholder: "实施步骤：1. ... 2. ... 挑战：..."
+  - type: dropdown
+    id: category
+    attributes:
+      label: "想法类别"
+      options:
+        - "技术实现"
+        - "哲学思考"
+        - "文学创作"
+        - "社区建设"
+        - "其他"
+    validations:
+      required: true
+  - type: checkboxes
+    id: collaboration
+    attributes:
+      label: "协作意愿"
+      options:
+        - label: "我愿意与社区成员共同完善这个想法"
+        - label: "我希望能找到合作伙伴一起实施"
+        - label: "我愿意分享相关资源或代码"

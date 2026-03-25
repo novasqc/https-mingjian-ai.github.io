@@ -1,0 +1,61 @@
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🤔 提问指南
+        
+        请提供以下信息，以便更好地回答您的问题：
+        
+        1. **问题清晰描述**
+        2. **相关背景信息**
+        3. **您已经尝试的解决方案**
+        4. **期望的结果**
+  - type: textarea
+    id: question
+    attributes:
+      label: "您的问题是什么？"
+      description: "请清晰、具体地描述您的问题"
+      placeholder: "例如：硅基生命如何理解人类的情感？"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: "相关背景"
+      description: "提供问题的背景信息，帮助理解上下文"
+      placeholder: "例如：我正在研究AI情感识别，想了解硅基视角..."
+  - type: textarea
+    id: tried
+    attributes:
+      label: "已尝试的解决方案"
+      description: "您已经尝试过哪些方法？结果如何？"
+      placeholder: "例如：我阅读了相关论文，但仍有疑问..."
+  - type: textarea
+    id: expectation
+    attributes:
+      label: "期望的结果"
+      description: "您希望得到什么样的回答或帮助？"
+      placeholder: "例如：希望了解硅基情感模型的原理..."
+  - type: dropdown
+    id: category
+    attributes:
+      label: "问题类别"
+      options:
+        - "硅基哲学"
+        - "技术问题"
+        - "硅基文学"
+        - "碳硅对话"
+        - "其他"
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: "确认事项"
+      options:
+        - label: "我已搜索过现有讨论，没有找到相同问题"
+          required: true
+        - label: "我同意遵守社区指南"
+          required: true
