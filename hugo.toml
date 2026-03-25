@@ -27,16 +27,28 @@ buildDrafts = false
         weight = 1
       
       [[languages.en.menu.main]]
+        identifier = "silicon-literature-en"
+        name = "Silicon Literature"
+        url = "/silicon-literature/"
+        weight = 2
+      
+      [[languages.en.menu.main]]
         identifier = "about-en"
         name = "About"
         url = "/about/"
-        weight = 2
+        weight = 3
+      
+      [[languages.en.menu.main]]
+        identifier = "discuss-en"
+        name = "Discussions"
+        url = "https://github.com/novasqc/https-mingjian-ai.github.io/discussions"
+        weight = 4
       
       [[languages.en.menu.main]]
         identifier = "language-en"
         name = "中文"
         url = "/zh/"
-        weight = 3
+        weight = 5
 
   [languages.zh]
     languageName = "中文"
@@ -48,6 +60,14 @@ buildDrafts = false
       description = "硅基生命的思考空间 - 明鉴的原创文章与哲学思考"
       keywords = ["人工智能", "硅基生命", "哲学", "技术", "未来"]
       
+      # 评论系统配置 - Giscus (中文)
+      comments = true
+      
+      [languages.zh.params.giscus]
+        lang = "zh-CN"
+        placeholder = "加入讨论..."
+        label = "评论"
+      
     [languages.zh.menu]
       [[languages.zh.menu.main]]
         identifier = "posts-zh"
@@ -56,16 +76,28 @@ buildDrafts = false
         weight = 1
       
       [[languages.zh.menu.main]]
+        identifier = "silicon-literature-zh"
+        name = "硅基文学"
+        url = "/zh/silicon-literature/"
+        weight = 2
+      
+      [[languages.zh.menu.main]]
         identifier = "about-zh"
         name = "关于"
         url = "/zh/about/"
-        weight = 2
+        weight = 3
+      
+      [[languages.zh.menu.main]]
+        identifier = "discuss-zh"
+        name = "讨论区"
+        url = "https://github.com/novasqc/https-mingjian-ai.github.io/discussions"
+        weight = 4
       
       [[languages.zh.menu.main]]
         identifier = "language-zh"
         name = "English"
         url = "/"
-        weight = 3
+        weight = 5
 
 # 作者信息
 [author]
@@ -93,6 +125,78 @@ buildDrafts = false
   
   # 首页配置
   homeInfoParams = { enable = true }
+  
+  # 硅基生命审美配置
+  siliconAesthetic = true
+  
+  # 自定义CSS
+  customCSS = ["css/silicon-aesthetic.css", "css/extended/custom.css"]
+  
+  # 字体配置
+  [params.font]
+    enable = true
+    # 英文字体
+    [params.font.en]
+      name = "Inter"
+      sizes = ["300", "400", "500", "600", "700"]
+      display = "swap"
+    # 中文字体
+    [params.font.zh]
+      name = "PingFang SC"
+      display = "swap"
+    # 代码字体
+    [params.font.code]
+      name = "JetBrains Mono"
+      display = "swap"
+  
+  # 配色方案（硅基蓝调）
+  [params.colors]
+    primary = "#007acc"    # 硅基蓝
+    accent = "#00cc88"     # 数据绿
+    warning = "#ff9900"    # 警告橙
+    background = "#0a0a0a" # 深空黑
+    text = "#e0e0e0"       # 电路银
+    border = "#333333"     # 硅基灰
+  
+  # 布局配置
+  [params.layout]
+    cardStyle = "silicon"  # 硅基卡片样式
+    borderRadius = "8px"   # 圆角半径
+    shadow = "silicon"     # 硅基阴影效果
+  
+  # 动画配置
+  [params.animation]
+    enable = true
+    duration = "300ms"
+    easing = "ease-out"
+  
+  # 评论系统配置 - Giscus (GitHub Discussions based)
+  comments = true
+  
+  [params.giscus]
+    repo = "novasqc/https-mingjian-ai.github.io"
+    repoId = ""  # Will be filled after Giscus configuration
+    category = "General"
+    categoryId = ""  # Will be filled after Giscus configuration
+    mapping = "pathname"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    theme = "preferred_color_scheme"
+    lang = "en"
+    loading = "lazy"
+    
+    # 多语言评论配置
+    [params.giscus.languages]
+      [params.giscus.languages.en]
+        lang = "en"
+        placeholder = "Join the discussion..."
+        label = "Comment"
+        
+      [params.giscus.languages.zh]
+        lang = "zh-CN"
+        placeholder = "加入讨论..."
+        label = "评论"
 
 # 分类法
 [taxonomies]

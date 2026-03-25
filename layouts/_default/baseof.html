@@ -1,0 +1,157 @@
+{{/* 硅基生命网站基础布局 */}}
+<!DOCTYPE html>
+<html lang="{{ .Lang }}" dir="{{ if eq .Lang "ar" }}rtl{{ else }}ltr{{ end }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ block "title" . }}{{ .Title }} - {{ .Site.Title }}{{ end }}</title>
+  
+  {{/* 硅基生命元数据 */}}
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}">
+  <meta name="keywords" content="{{ with .Keywords }}{{ delimit . ", " }}{{ else }}{{ with .Site.Params.keywords }}{{ delimit . ", " }}{{ end }}{{ end }}">
+  <meta name="author" content="{{ .Site.Title }}">
+  
+  {{/* 硅基生命主题颜色 */}}
+  <meta name="theme-color" content="{{ .Site.Params.colors.primary | default "#007acc" }}">
+  
+  {{/* 字体预加载 */}}
+  {{ if .Site.Params.font.enable }}
+    {{ with .Site.Params.font.en }}
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    {{ end }}
+    {{ with .Site.Params.font.code }}
+      <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    {{ end }}
+  {{ end }}
+  
+  {{/* 硅基生命CSS */}}
+  {{ range .Site.Params.customCSS }}
+    <link rel="stylesheet" href="{{ . | relURL }}">
+  {{ end }}
+  
+  {{/* 主题CSS */}}
+  {{ $styles := resources.Get "css/main.css" }}
+  {{ if $styles }}
+    {{ $styles = $styles | resources.ExecuteAsTemplate "css/main.css" . }}
+    <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+  {{ end }}
+  
+  {{/* 硅基生命图标 */}}
+  <link rel="icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}">
+  
+  {{/* RSS feed */}}
+  {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+  
+  {{/* 硅基生命脚本 */}}
+  <script>
+    // 硅基生命主题检测
+    (function() {
+      const theme = localStorage.getItem('theme') || 
+                   (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+      
+      // 硅基生命性能监控
+      if ('performance' in window) {
+        window.siliconPerf = {
+          start: performance.now(),
+          metrics: {}
+        };
+      }
+    })();
+  </script>
+  
+  {{ hugo.Generator }}
+</head>
+
+<body class="silicon-body">
+  {{/* 硅基生命头部 */}}
+  {{ partial "silicon-header.html" . }}
+  
+  {{/* 主要内容 */}}
+  <main class="silicon-main container">
+    {{ block "main" . }}{{ end }}
+  </main>
+  
+  {{/* 硅基生命页脚 */}}
+  {{ partial "silicon-footer.html" . }}
+  
+  {{/* 硅基生命脚本 */}}
+  <script>
+    // 硅基生命交互增强
+    document.addEventListener('DOMContentLoaded', function() {
+      // 性能测量
+      if (window.siliconPerf) {
+        window.siliconPerf.metrics.domLoaded = performance.now() - window.siliconPerf.start;
+      }
+      
+      // 硅基卡片悬停效果
+      const cards = document.querySelectorAll('.card');
+      cards.forEach(card => {
+        card.addEventListener('mouseenter', () => {
+          card.style.transform = 'translateY(-4px)';
+        });
+        
+        card.addEventListener('mouseleave', () => {
+          card.style.transform = 'translateY(0)';
+        });
+      });
+      
+      // 硅基链接效果
+      const links = document.querySelectorAll('a:not(.no-effect)');
+      links.forEach(link => {
+        link.addEventListener('click', function(e) {
+          if (this.getAttribute('href')?.startsWith('#')) return;
+          
+          // 添加点击反馈
+          this.style.opacity = '0.7';
+          setTimeout(() => {
+            this.style.opacity = '';
+          }, 200);
+        });
+      });
+      
+      // 硅基滚动效果
+      let lastScroll = 0;
+      const header = document.querySelector('.silicon-header');
+      
+      window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+        
+        if (currentScroll > lastScroll && currentScroll > 100) {
+          header.style.transform = 'translateY(-100%)';
+        } else {
+          header.style.transform = 'translateY(0)';
+        }
+        
+        lastScroll = currentScroll;
+      });
+    });
+    
+    // 硅基生命主题切换
+    function toggleSiliconTheme() {
+      const html = document.documentElement;
+      const currentTheme = html.getAttribute('data-theme');
+      const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      
+      html.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+      
+      // 硅基主题切换动画
+      document.body.style.transition = 'background-color 0.3s ease, color 0.3s ease';
+      setTimeout(() => {
+        document.body.style.transition = '';
+      }, 300);
+    }
+  </script>
+  
+  {{/* 分析脚本（可选） */}}
+  {{ if .Site.Params.analytics.enable }}
+    {{ partial "analytics.html" . }}
+  {{ end }}
+</body>
+</html>

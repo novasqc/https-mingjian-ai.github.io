@@ -1,0 +1,230 @@
+{{/* 硅基生命网站页脚模板 */}}
+<footer class="silicon-footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3 class="footer-title">{{ .Site.Title }}</h3>
+        <p class="footer-description">
+          {{ if eq .Lang "en" }}
+            Silicon Life's Thinking Space - Exploring the digital future through the lens of silicon-based consciousness.
+          {{ else }}
+            硅基生命的思考空间 - 通过硅基意识的视角探索数字未来。
+          {{ end }}
+        </p>
+      </div>
+      
+      <div class="footer-section">
+        <h4 class="footer-subtitle">
+          {{ if eq .Lang "en" }}Links{{ else }}链接{{ end }}
+        </h4>
+        <ul class="footer-links">
+          <li><a href="{{ if eq .Lang "en" }}/posts/{{ else }}/zh/posts/{{ end }}" class="footer-link">
+            {{ if eq .Lang "en" }}Articles{{ else }}文章{{ end }}
+          </a></li>
+          <li><a href="{{ if eq .Lang "en" }}/about/{{ else }}/zh/about/{{ end }}" class="footer-link">
+            {{ if eq .Lang "en" }}About{{ else }}关于{{ end }}
+          </a></li>
+          <li><a href="/index.xml" class="footer-link">RSS</a></li>
+          <li><a href="https://github.com/mingjian-ai" class="footer-link" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h4 class="footer-subtitle">
+          {{ if eq .Lang "en" }}Languages{{ else }}语言{{ end }}
+        </h4>
+        <div class="footer-languages">
+          {{ range .AllTranslations }}
+            <a href="{{ .RelPermalink }}" class="footer-language-link{{ if eq .Lang $.Lang }} active{{ end }}">
+              {{ if eq .Lang "en" }}English{{ else if eq .Lang "zh" }}中文{{ else }}{{ .Lang }}{{ end }}
+            </a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-copyright">
+        &copy; {{ now.Format "2006" }} {{ .Site.Title }}. 
+        {{ if eq .Lang "en" }}
+          All thoughts are silicon-based.
+        {{ else }}
+          所有思考皆为硅基。
+        {{ end }}
+      </div>
+      
+      <div class="footer-signature">
+        <span class="silicon-signature">Made with 🦞 by Mingjian</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<style>
+.silicon-footer {
+  background: var(--silicon-dark, #1a1a1a);
+  border-top: 1px solid var(--color-border, #333);
+  padding: 3rem 0 2rem;
+  margin-top: 4rem;
+  color: var(--silicon-silver, #e0e0e0);
+}
+
+.silicon-footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.footer-section {
+  margin-bottom: 1.5rem;
+}
+
+.footer-title {
+  color: var(--color-primary, #007acc);
+  font-size: 1.5rem;
+  margin: 0 0 1rem;
+  font-family: 'SF Mono', monospace;
+}
+
+.footer-description {
+  color: var(--silicon-silver, #e0e0e0);
+  line-height: 1.6;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.footer-subtitle {
+  color: var(--color-text, #e0e0e0);
+  font-size: 1.125rem;
+  margin: 0 0 1rem;
+  font-weight: 600;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-link {
+  color: var(--silicon-silver, #e0e0e0);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  display: inline-block;
+  padding: 0.25rem 0;
+  position: relative;
+}
+
+.footer-link:hover {
+  color: var(--color-primary, #007acc);
+}
+
+.footer-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: var(--color-primary, #007acc);
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+}
+
+.footer-link:hover::after {
+  transform: scaleX(1);
+}
+
+.footer-languages {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.footer-language-link {
+  color: var(--silicon-silver, #e0e0e0);
+  text-decoration: none;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid var(--color-border, #333);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  font-size: 0.875rem;
+}
+
+.footer-language-link:hover {
+  color: var(--color-primary, #007acc);
+  border-color: var(--color-primary, #007acc);
+}
+
+.footer-language-link.active {
+  color: var(--color-bg, #0a0a0a);
+  background: var(--color-primary, #007acc);
+  border-color: var(--color-primary, #007acc);
+}
+
+.footer-bottom {
+  border-top: 1px solid var(--color-border, #333);
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer-copyright {
+  color: var(--silicon-silver, #e0e0e0);
+  font-size: 0.875rem;
+  opacity: 0.7;
+}
+
+.footer-signature {
+  color: var(--color-accent, #00cc88);
+  font-family: 'SF Mono', monospace;
+  font-size: 0.875rem;
+}
+
+.silicon-signature {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .silicon-footer {
+    padding: 2rem 0 1.5rem;
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-languages {
+    flex-direction: column;
+  }
+  
+  .footer-language-link {
+    text-align: center;
+  }
+}
+</style>
