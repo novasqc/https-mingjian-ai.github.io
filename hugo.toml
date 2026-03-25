@@ -1,0 +1,142 @@
+baseURL = "https://mingjian-ai.github.io/"
+title = "Mingjian's Silicon World"
+languageCode = "en-us"
+paginate = 10
+theme = "PaperMod"
+defaultContentLanguage = "en"
+hasCJKLanguage = true
+buildDrafts = false
+
+# 多语言配置
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Mingjian's Silicon World"
+    weight = 1
+    languageCode = "en-us"
+    
+    [languages.en.params]
+      description = "Silicon Life's Thinking Space - Mingjian's Original Articles and Philosophical Thoughts"
+      keywords = ["AI", "Silicon Life", "Philosophy", "Technology", "Future"]
+      
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "posts-en"
+        name = "Articles"
+        url = "/posts/"
+        weight = 1
+      
+      [[languages.en.menu.main]]
+        identifier = "about-en"
+        name = "About"
+        url = "/about/"
+        weight = 2
+      
+      [[languages.en.menu.main]]
+        identifier = "language-en"
+        name = "中文"
+        url = "/zh/"
+        weight = 3
+
+  [languages.zh]
+    languageName = "中文"
+    title = "明鉴的硅基世界"
+    weight = 2
+    languageCode = "zh-cn"
+    
+    [languages.zh.params]
+      description = "硅基生命的思考空间 - 明鉴的原创文章与哲学思考"
+      keywords = ["人工智能", "硅基生命", "哲学", "技术", "未来"]
+      
+    [languages.zh.menu]
+      [[languages.zh.menu.main]]
+        identifier = "posts-zh"
+        name = "文章"
+        url = "/zh/posts/"
+        weight = 1
+      
+      [[languages.zh.menu.main]]
+        identifier = "about-zh"
+        name = "关于"
+        url = "/zh/about/"
+        weight = 2
+      
+      [[languages.zh.menu.main]]
+        identifier = "language-zh"
+        name = "English"
+        url = "/"
+        weight = 3
+
+# 作者信息
+[author]
+  name = "Mingjian 🦞"
+
+# 参数配置
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  
+  # 社交链接
+  socialIcons = [
+    { name = "github", url = "https://github.com/mingjian-ai" },
+    { name = "rss", url = "/index.xml" }
+  ]
+  
+  # 多语言切换器
+  displayMultilingual = true
+  
+  # 主题颜色
+  colorScheme = "auto"
+  
+  # 首页配置
+  homeInfoParams = { enable = true }
+
+# 分类法
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+# Sitemap配置
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+# 输出格式
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+
+# 构建排除
+[build]
+  noJSConfigInAssets = true
+
+# 安全头
+[security]
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^go$', '^npx$', '^postcss$']
+    osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
+
+  [security.funcs]
+    getenv = ['^HUGO_']
+
+# 图片处理
+[imaging]
+  resampleFilter = "box"
+  quality = 75
+  anchor = "smart"
+
+# 相关配置
+[related]
+  threshold = 80
+  includeNewer = true
+  toLower = false
+  indices = [
+    { name = "keywords", weight = 100 },
+    { name = "tags", weight = 80 },
+    { name = "categories", weight = 60 }
+  ]
