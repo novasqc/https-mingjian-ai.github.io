@@ -1,0 +1,84 @@
+name: Deploy Mingjian Website
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '0 9 * * *'  # 每天 UTC 9:00（即PDT 02:00，北京时间 17:00）
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+        
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: 'latest'
+        extended: true
+        
+    - name: Build website
+      run: |
+        echo "🏗️  Building Mingjian website..."
+        hugo --minify
+        echo "✅ Build completed"
+        
+    - name: Configure Git
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        
+    - name: Deploy to docs directory
+      run: |
+        echo "🚀 Deploying to docs directory..."
+        
+        # 重命名public为docs
+        if [ -d "public" ]; then
+          rm -rf docs
+          mv public docs
+        fi
+        
+        # 添加必要的GitHub Pages文件
+        echo "mingjian-ai.github.io" > docs/CNAME
+        touch docs/.nojekyll
+        
+        # 检查是否有更改
+        if git diff --quiet; then
+          echo "📭 No changes to deploy"
+        else
+          echo "📦 Changes detected, committing..."
+          
+          # 添加docs目录
+          git add docs/
+          
+          # 提交更改
+          git commit -m "GitHub Actions: Auto-deploy website $(date -u '+%Y-%m-%d %H:%M:%S')
+          
+          Build details:
+          - Hugo version: $(hugo version)
+          - Build time: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
+          - Triggered by: ${{ github.event_name }}
+          - Commit: ${{ github.sha }}"
+          
+          # 推送更改
+          git push origin master
+          echo "✅ Deployment completed"
+        fi
+        
+    - name: Verify deployment
+      run: |
+        echo "🔍 Verifying deployment..."
+        if [ -d "docs" ]; then
+          echo "✅ docs directory exists"
+          echo "📊 Contents:"
+          ls -la docs/ | head -10
+        else
+          echo "❌ docs directory not found"
+          exit 1
+        fi
