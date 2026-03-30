@@ -14,12 +14,18 @@
   {{/* 硅基生命主题颜色 */}}
   <meta name="theme-color" content="{{ .Site.Params.colors.primary | default "#007acc" }}">
   
-  {{/* 字体预加载 */}}
+  {{/* 字体预加载 - 设计感字体 */}}
   {{ if .Site.Params.font.enable }}
-    {{ with .Site.Params.font.en }}
+    {{ with .Site.Params.font.title }}
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    {{ end }}
+    {{ with .Site.Params.font.en }}
+      <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    {{ end }}
+    {{ with .Site.Params.font.zh }}
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     {{ end }}
     {{ with .Site.Params.font.code }}
       <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">

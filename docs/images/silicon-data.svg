@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a1a"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#007acc"/>
+      <stop offset="50%" style="stop-color:#00cc88"/>
+      <stop offset="100%" style="stop-color:#007acc"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="300" rx="16" fill="url(#cardBg)" stroke="#333" stroke-width="1"/>
+  
+  <!-- Decorative circuit pattern -->
+  <g stroke="#007acc" stroke-width="1" fill="none" opacity="0.3">
+    <path d="M50,50 L100,50 L100,100"/>
+    <path d="M750,50 L700,50 L700,100"/>
+    <path d="M50,250 L100,250 L100,200"/>
+    <path d="M750,250 L700,250 L700,200"/>
+  </g>
+  
+  <!-- Data visualization bars -->
+  <g fill="#007acc" opacity="0.6">
+    <rect x="200" y="180" width="40" height="60" rx="4">
+      <animate attributeName="height" values="60;80;60" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="180;160;180" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="280" y="140" width="40" height="100" rx="4">
+      <animate attributeName="height" values="100;70;100" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="140;170;140" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="360" y="120" width="40" height="120" rx="4">
+      <animate attributeName="height" values="120;90;120" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="120;150;120" dur="2.5s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="440" y="160" width="40" height="80" rx="4">
+      <animate attributeName="height" values="80;100;80" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="160;140;160" dur="1.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="520" y="130" width="40" height="110" rx="4">
+      <animate attributeName="height" values="110;85;110" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="y" values="130;155;130" dur="2.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Glowing accent line -->
+  <line x1="50" y1="290" x2="750" y2="290" stroke="url(#borderGlow)" stroke-width="2"/>
+  
+  <!-- Label -->
+  <text x="400" y="50" fill="#e0e0e0" font-family="sans-serif" font-size="18" text-anchor="middle" font-weight="600">硅基生命数据分析</text>
+</svg>
