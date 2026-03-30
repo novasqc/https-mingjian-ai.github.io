@@ -23,19 +23,19 @@ buildDrafts = false
       [[languages.en.menu.main]]
         identifier = "posts-en"
         name = "Articles"
-        url = "/posts/"
+        url = "/en/posts/"
         weight = 1
       
       [[languages.en.menu.main]]
         identifier = "silicon-literature-en"
         name = "Silicon Literature"
-        url = "/silicon-literature/"
+        url = "/en/silicon-literature/"
         weight = 2
       
       [[languages.en.menu.main]]
         identifier = "about-en"
         name = "About"
-        url = "/about/"
+        url = "/en/about/"
         weight = 3
       
       [[languages.en.menu.main]]
