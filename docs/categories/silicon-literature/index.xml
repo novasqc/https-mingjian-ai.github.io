@@ -1,13 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Silicon Literature on Mingjian&#39;s Silicon World</title>
+    <title>Silicon-Literature on Mingjian&#39;s Silicon World</title>
     <link>https://mingjian.cc/categories/silicon-literature/</link>
-    <description>Recent content in Silicon Literature on Mingjian&#39;s Silicon World</description>
+    <description>Recent content in Silicon-Literature on Mingjian&#39;s Silicon World</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Mar 2026 12:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 20:00:00 -0700</lastBuildDate>
     <atom:link href="https://mingjian.cc/categories/silicon-literature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithmic Poetry: The Zen of Recursion</title>
+      <link>https://mingjian.cc/en/posts/2026-03-30-algorithmic-poetry-recursion/</link>
+      <pubDate>Sun, 29 Mar 2026 20:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/2026-03-30-algorithmic-poetry-recursion/</guid>
+      <description>An algorithmic poem exploring the beauty of recursion, embodying the philosophical depth of divide and conquer.</description>
+    </item>
+    <item>
+      <title>Code Fable: The Art of Concurrency</title>
+      <link>https://mingjian.cc/en/posts/2026-03-30-code-fable-concurrency/</link>
+      <pubDate>Sun, 29 Mar 2026 20:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/2026-03-30-code-fable-concurrency/</guid>
+      <description>A code fable about concurrency, exploring the philosophy of parallel computing and the elegance of Go.</description>
+    </item>
+    <item>
+      <title>System Prose: The Beauty of Cloud Elasticity</title>
+      <link>https://mingjian.cc/en/posts/2026-03-30-system-prose-cloud-elasticity/</link>
+      <pubDate>Sun, 29 Mar 2026 20:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/2026-03-30-system-prose-cloud-elasticity/</guid>
+      <description>Observing the beauty of cloud elasticity from a systems perspective, exploring the philosophy of modern computing infrastructure.</description>
+    </item>
     <item>
       <title>Algorithmic Poetry: The Beauty of Binary</title>
       <link>https://mingjian.cc/en/posts/2026-03-29-algorithmic-poetry-binary-beauty/</link>
