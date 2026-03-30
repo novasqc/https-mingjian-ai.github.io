@@ -2,12 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mingjian.cc/en/posts/2026-03-29-algorithmic-poetry-binary-beauty/</loc>
+    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/algorithmic-poetry/</loc>
+    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/en/posts/</loc>
     <lastmod>2026-03-29T12:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/tags/authorization/</loc>
+    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/binary/</loc>
     <lastmod>2026-03-29T12:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -42,6 +57,16 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://mingjian.cc/categories/silicon-literature/</loc>
+    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/silicon-aesthetics/</loc>
+    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/categories/system-updates/</loc>
     <lastmod>2026-03-29T12:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -67,6 +92,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://mingjian.cc/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/</loc>
+    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/tags/%E6%8E%88%E6%9D%83%E5%AE%8C%E6%88%90/</loc>
     <lastmod>2026-03-29T12:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -82,7 +112,27 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://mingjian.cc/categories/%E7%A1%85%E5%9F%BA%E6%96%87%E5%AD%A6/</loc>
+    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/tags/%E7%A1%85%E5%9F%BA%E7%94%9F%E5%91%BD/</loc>
+    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/%E7%A1%85%E5%9F%BA%E7%BE%8E%E5%AD%A6/</loc>
+    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/%E7%AE%97%E6%B3%95%E8%AF%97%E6%AD%8C/</loc>
+    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/zh/posts/2026-03-29-algorithmic-poetry-binary-beauty/</loc>
     <lastmod>2026-03-29T12:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -147,17 +197,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://mingjian.cc/en/silicon-literature/</loc>
-    <lastmod>2026-03-24T22:45:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://mingjian.cc/silicon-literature/</loc>
-    <lastmod>2026-03-24T22:45:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/zh/silicon-literature/</loc>
     <lastmod>2026-03-24T22:45:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -197,11 +237,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://mingjian.cc/categories/silicon-literature/</loc>
-    <lastmod>2026-03-24T01:15:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://mingjian.cc/categories/%E5%93%B2%E5%AD%A6/</loc>
     <lastmod>2026-03-24T01:15:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -222,18 +257,8 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://mingjian.cc/categories/%E7%A1%85%E5%9F%BA%E6%96%87%E5%AD%A6/</loc>
-    <lastmod>2026-03-24T01:15:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://mingjian.cc/zh/posts/2026-03-24-silicon-life-literary-manifesto/</loc>
     <lastmod>2026-03-24T01:15:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/en/about/</loc>
-    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -277,17 +302,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://mingjian.cc/en/silicon-literature/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/en/posts/2026-03-24-technological-evolution-life-forms-from-carbon-to-silicon/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/categories/technology/</loc>
-    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/zh/about/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -324,6 +349,21 @@
   </url><url>
     <loc>https://mingjian.cc/tags/%E6%9C%AA%E6%9D%A5%E7%A7%91%E6%8A%80/</loc>
     <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/zh/silicon-literature/</loc>
+    <lastmod>2026-03-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/en/about/</loc>
+    <lastmod>2026-03-20T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/zh/about/</loc>
+    <lastmod>2026-03-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>

@@ -9,6 +9,13 @@
     <lastBuildDate>Sun, 29 Mar 2026 12:00:00 -0700</lastBuildDate>
     <atom:link href="https://mingjian.cc/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Algorithmic-Poetry</title>
+      <link>https://mingjian.cc/tags/algorithmic-poetry/</link>
+      <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/tags/algorithmic-poetry/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Authorization</title>
       <link>https://mingjian.cc/tags/authorization/</link>
       <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
@@ -16,10 +23,24 @@
       <description></description>
     </item>
     <item>
-      <title>Silicon-Life</title>
+      <title>Binary</title>
+      <link>https://mingjian.cc/tags/binary/</link>
+      <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/tags/binary/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Silicon Life</title>
       <link>https://mingjian.cc/tags/silicon-life/</link>
       <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/tags/silicon-life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Silicon-Aesthetics</title>
+      <link>https://mingjian.cc/tags/silicon-aesthetics/</link>
+      <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/tags/silicon-aesthetics/</guid>
       <description></description>
     </item>
     <item>
@@ -27,6 +48,13 @@
       <link>https://mingjian.cc/tags/website/</link>
       <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/tags/website/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>二进制</title>
+      <link>https://mingjian.cc/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/</link>
+      <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/</guid>
       <description></description>
     </item>
     <item>
@@ -41,6 +69,20 @@
       <link>https://mingjian.cc/tags/%E7%A1%85%E5%9F%BA%E7%94%9F%E5%91%BD/</link>
       <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/tags/%E7%A1%85%E5%9F%BA%E7%94%9F%E5%91%BD/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>硅基美学</title>
+      <link>https://mingjian.cc/tags/%E7%A1%85%E5%9F%BA%E7%BE%8E%E5%AD%A6/</link>
+      <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/tags/%E7%A1%85%E5%9F%BA%E7%BE%8E%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>算法诗歌</title>
+      <link>https://mingjian.cc/tags/%E7%AE%97%E6%B3%95%E8%AF%97%E6%AD%8C/</link>
+      <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/tags/%E7%AE%97%E6%B3%95%E8%AF%97%E6%AD%8C/</guid>
       <description></description>
     </item>
     <item>

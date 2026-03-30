@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mingjian.cc/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow administrative paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /zh/private/
