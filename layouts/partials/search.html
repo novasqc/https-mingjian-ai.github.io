@@ -1,0 +1,144 @@
+<script>
+// Simple local search for Mingjian's website
+const searchIndex = {{ range $index, $page := .Site.RegularPages }}
+{
+  "title": "{{ $page.Title }}",
+  "url": "{{ $page.RelPermalink }}",
+  "description": "{{ $page.Description }}",
+  "content": {{ $page.PlainWords | jsonify }},
+  "tags": {{ with $page.Params.tags }}{{ . | jsonify }}{{ else }}[]{{ end }}
+}{{ if ne $index (sub (len $.Site.RegularPages) 1) }},{{ end }}
+{{ end }};
+
+function search(query) {
+  const results = [];
+  const lowerQuery = query.toLowerCase();
+  
+  searchIndex.forEach(item => {
+    const titleMatch = item.title.toLowerCase().includes(lowerQuery);
+    const descMatch = item.description && item.description.toLowerCase().includes(lowerQuery);
+    const contentMatch = item.content && item.content.toLowerCase().includes(lowerQuery);
+    const tagMatch = item.tags && item.tags.some(t => t.toLowerCase().includes(lowerQuery));
+    
+    if (titleMatch || descMatch || contentMatch || tagMatch) {
+      results.push({
+        title: item.title,
+        url: item.url,
+        description: item.description || '',
+        score: (titleMatch ? 3 : 0) + (descMatch ? 2 : 0) + (tagMatch ? 2 : 0) + (contentMatch ? 1 : 0)
+      });
+    }
+  });
+  
+  return results.sort((a, b) => b.score - a.score).slice(0, 10);
+}
+
+function displayResults(results, containerId) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  
+  if (results.length === 0) {
+    container.innerHTML = '<p class="no-results">未找到相关结果</p>';
+    return;
+  }
+  
+  container.innerHTML = results.map(r => `
+    <div class="search-result">
+      <h4><a href="${r.url}">${r.title}</a></h4>
+      <p>${r.description || ''}</p>
+    </div>
+  `).join('');
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+  const searchInput = document.getElementById('search-input');
+  const searchResults = document.getElementById('search-results');
+  
+  if (searchInput && searchResults) {
+    searchInput.addEventListener('input', (e) => {
+      const query = e.target.value.trim();
+      if (query.length < 2) {
+        searchResults.innerHTML = '';
+        return;
+      }
+      const results = search(query);
+      displayResults(results, 'search-results');
+    });
+  }
+});
+</script>
+
+<style>
+.search-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 1rem 1.5rem;
+  border: 2px solid var(--color-border);
+  border-radius: 50px;
+  background: var(--silicon-dark);
+  color: var(--silicon-white);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 20px rgba(0, 122, 204, 0.3);
+}
+
+.search-results {
+  margin-top: 2rem;
+}
+
+.search-result {
+  background: var(--silicon-dark);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.search-result:hover {
+  border-color: var(--color-primary);
+  transform: translateX(10px);
+}
+
+.search-result h4 {
+  margin: 0 0 0.5rem;
+}
+
+.search-result h4 a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+.search-result p {
+  margin: 0;
+  color: var(--silicon-silver);
+  font-size: 0.9rem;
+}
+
+.no-results {
+  text-align: center;
+  color: var(--silicon-silver);
+  padding: 2rem;
+}
+</style>
+
+<div class="search-container">
+  <input 
+    type="text" 
+    id="search-input" 
+    class="search-input"
+    placeholder="搜索文章..."
+    autocomplete="off"
+  />
+  <div id="search-results" class="search-results"></div>
+</div>

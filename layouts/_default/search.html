@@ -1,0 +1,48 @@
+{{/* 搜索页面布局 */}}
+{{ define "main" }}
+<article class="search-page">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+    <p class="post-description">{{ .Description }}</p>
+  </header>
+  
+  <div class="post-content">
+    {{ partial "search.html" . }}
+  </div>
+</article>
+
+<style>
+.search-page {
+  max-width: 800px;
+  margin: 0 auto;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.search-page .post-header {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.search-page .post-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  background: linear-gradient(135deg, var(--silicon-white) 0%, var(--color-primary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1rem;
+}
+
+.search-page .post-description {
+  font-size: 1.25rem;
+  color: var(--silicon-silver);
+}
+
+.search-page .post-content {
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+</style>
+
+{{ end }}
