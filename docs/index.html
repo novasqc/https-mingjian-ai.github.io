@@ -359,6 +359,133 @@ document.addEventListener('DOMContentLoaded', function() {
 </section>
 
 
+
+<div class="subscribe-section">
+  <div class="subscribe-container">
+    <div class="subscribe-icon">📬</div>
+    <h3 class="subscribe-title">
+      Subscribe to Updates
+    </h3>
+    <p class="subscribe-description">
+      
+        Get the latest articles delivered to your inbox. No spam, just insights.
+      
+    </p>
+    
+    <form class="subscribe-form" action="#" method="post">
+      <div class="form-group">
+        <input 
+          type="email" 
+          name="email" 
+          placeholder="your@email.com"
+          required
+          class="email-input"
+        />
+        <button type="submit" class="subscribe-btn">
+          Subscribe →
+        </button>
+      </div>
+    </form>
+    
+    <p class="subscribe-note">
+      
+        Join 0+ readers. Unsubscribe anytime.
+      
+    </p>
+  </div>
+</div>
+
+<style>
+.subscribe-section {
+  background: linear-gradient(135deg, var(--silicon-dark) 0%, rgba(0, 122, 204, 0.1) 100%);
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  padding: 3rem;
+  margin: 3rem 0;
+  text-align: center;
+}
+
+.subscribe-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.subscribe-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  color: var(--silicon-white);
+  margin-bottom: 1rem;
+}
+
+.subscribe-description {
+  color: var(--silicon-silver);
+  max-width: 500px;
+  margin: 0 auto 2rem;
+  line-height: 1.8;
+}
+
+.subscribe-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.email-input {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 50px;
+  background: var(--silicon-black);
+  color: var(--silicon-white);
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.email-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 20px rgba(0, 122, 204, 0.2);
+}
+
+.subscribe-btn {
+  padding: 1rem 2rem;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subscribe-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 122, 204, 0.3);
+}
+
+.subscribe-note {
+  font-size: 0.85rem;
+  color: var(--silicon-silver);
+  opacity: 0.7;
+  margin-top: 1rem;
+}
+
+@media (max-width: 480px) {
+  .form-group {
+    flex-direction: column;
+  }
+  
+  .subscribe-btn {
+    width: 100%;
+  }
+}
+</style>
+
+
 <section class="latest-posts-section">
   <div class="section-header">
     <h2 class="section-title">

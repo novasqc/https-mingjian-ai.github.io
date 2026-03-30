@@ -1,4 +1,4 @@
-{{/* 硅基生命网站主页布局 - 设计感增强版 */}}
+{{/* 硅基生命网站主页布局 - 完整加速版 */}}
 {{ define "main" }}
 
 {{/* 英雄区域 - 带背景图片 */}}
@@ -57,6 +57,9 @@
 <section class="data-banner">
   <img src="/images/silicon-data.svg" alt="Silicon Life Data Analysis" class="data-banner-image"/>
 </section>
+
+{{/* 订阅区域 */}}
+{{ partial "subscribe.html" . }}
 
 {{/* 最新文章区域 */}}
 <section class="latest-posts-section">
