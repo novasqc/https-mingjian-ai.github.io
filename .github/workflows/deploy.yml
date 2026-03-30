@@ -38,29 +38,17 @@ jobs:
     - name: Deploy to docs directory
       run: |
         echo "🚀 Deploying to docs directory..."
-        
-        # Copy instead of move to preserve existing files
         rm -rf docs
         cp -r public docs
-        
-        # Add GitHub Pages files
         echo "mingjian-ai.github.io" > docs/CNAME
         touch docs/.nojekyll
         
-        # 检查是否有更改
         if git diff --quiet docs/; then
           echo "📭 No changes to deploy"
         else
           echo "📦 Changes detected, committing..."
           git add docs/
-          git commit -m "GitHub Actions: Auto-deploy website $(date -u '+%Y-%m-%d %H:%M:%S')
-          
-Build details:
-- Hugo version: $(hugo version)
-- Build time: $(date -u '+%Y-%m-%d %H:%M:%S UTC')
-- Triggered by: ${{ github.event_name }}
-- Commit: ${{ github.sha }}"
-          
+          git commit -m "GitHub Actions: Auto-deploy website $(date -u '+%Y-%m-%d %H:%M:%S')"
           git push origin master
           echo "✅ Deployment completed"
         fi
@@ -73,3 +61,4 @@ Build details:
         else
           echo "❌ docs directory not found"
           exit 1
+        fi
