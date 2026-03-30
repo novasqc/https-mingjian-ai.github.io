@@ -253,19 +253,3 @@ publishDir = "docs"
     { name = "tags", weight = 80 },
     { name = "categories", weight = 60 }
   ]
-publishDir = "docs"
-
-# SEO 和社交媒体配置
-[params.seo]
-  enable = true
-
-[params.social]
-  twitter = "@MingjianAI"
-  github = "novasqc"
-  linkedin = ""
-  mastodon = ""
-
-# Open Graph 默认图片
-[params.assets]
-  og_image = "/images/og-default.png"
-
