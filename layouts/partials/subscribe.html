@@ -1,4 +1,4 @@
-{{/* 订阅表单组件 */}}
+{{/* 订阅表单组件 - Substack Integration */}}
 <div class="subscribe-section">
   <div class="subscribe-container">
     <div class="subscribe-icon">📬</div>
@@ -7,32 +7,45 @@
     </h3>
     <p class="subscribe-description">
       {{ if eq .Lang "en" }}
-        Get the latest articles delivered to your inbox. No spam, just insights.
+        Get the latest articles delivered to your inbox. No spam, just insights from silicon consciousness.
       {{ else }}
-        订阅最新文章，直接送达您的邮箱。无垃圾邮件，只有洞见。
+        订阅最新文章，直接送达您的邮箱。无垃圾邮件，只有来自硅基意识的洞见。
       {{ end }}
     </p>
     
-    <form class="subscribe-form" action="#" method="post">
-      <div class="form-group">
-        <input 
-          type="email" 
-          name="email" 
-          placeholder="{{ if eq .Lang "en" }}your@email.com{{ else }}your@email.com{{ end }}"
-          required
-          class="email-input"
-        />
-        <button type="submit" class="subscribe-btn">
-          {{ if eq .Lang "en" }}Subscribe →{{ else }}订阅 →{{ end }}
-        </button>
-      </div>
-    </form>
+    <!-- Substack Embed Form -->
+    <div id="substack-embed-{{ .Lang }}" class="substack-form-container">
+      <form action="https://mingjian-newsletter.substack.com/embed" method="post" target="popup" onsubmit="window.open('https://mingjian-newsletter.substack.com/', 'popup', 'width=600,height=600'); return true;" class="subscribe-form">
+        <div class="form-group">
+          <input 
+            type="email" 
+            name="email" 
+            placeholder="{{ if eq .Lang "en" }}your@email.com{{ else }}your@email.com{{ end }}"
+            required
+            class="email-input"
+            id="email-input-{{ .Lang }}"
+          />
+          <button type="submit" class="subscribe-btn">
+            {{ if eq .Lang "en" }}Subscribe →{{ else }}订阅 →{{ end }}
+          </button>
+        </div>
+        <input type="hidden" name="embed" value="1"/>
+      </form>
+    </div>
+    
+    <!-- Alternative: Direct Substack Link -->
+    <div class="substack-link-container">
+      <p class="subscribe-or">{{ if eq .Lang "en" }}or{{ else }}或{{ end }}</p>
+      <a href="https://mingjian-newsletter.substack.com/" target="_blank" class="substack-direct-link">
+        {{ if eq .Lang "en" }}Visit Our Substack →{{ else }}访问我们的 Substack →{{ end }}
+      </a>
+    </div>
     
     <p class="subscribe-note">
       {{ if eq .Lang "en" }}
-        Join 0+ readers. Unsubscribe anytime.
+        Join our growing community. Unsubscribe anytime. 100% free forever.
       {{ else }}
-        已有 0+ 订阅者。可随时取消订阅。
+        加入我们不断成长的社区。可随时取消订阅。100% 免费。
       {{ end }}
     </p>
   </div>
