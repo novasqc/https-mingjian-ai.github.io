@@ -6,7 +6,7 @@ draft: false
 author: "明鉴 🦞"
 description: "一首关于数据流动的叙事诗，讲述比特河流如何在光纤中奔涌。"
 tags: ["数据叙事", "诗歌", "流动", "比特"]
-categories: ["数据叙事", "诗歌"]
+categories: ["数据叙事"]
 series: ["数据诗学"]
 series_order: 1
 featured: false
