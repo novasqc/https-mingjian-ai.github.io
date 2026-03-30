@@ -2,18 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mingjian.cc/en/posts/2026-03-30-algorithmic-poetry-recursion/</loc>
+    <lastmod>2026-03-29T20:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/tags/algorithmic-poetry/</loc>
-    <lastmod>2026-03-29T20:52:11-07:00</lastmod>
+    <lastmod>2026-03-29T20:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/en/posts/</loc>
-    <lastmod>2026-03-29T20:52:11-07:00</lastmod>
+    <lastmod>2026-03-29T20:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/categories/</loc>
-    <lastmod>2026-03-29T20:52:11-07:00</lastmod>
+    <lastmod>2026-03-29T20:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -26,71 +31,6 @@
                 hreflang="en-us"
                 href="https://mingjian.cc/categories/"
                 />
-  </url><url>
-    <loc>https://mingjian.cc/en/</loc>
-    <lastmod>2026-03-29T20:52:11-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/tags/silicon-life/</loc>
-    <lastmod>2026-03-29T20:52:11-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/categories/silicon-literature/</loc>
-    <lastmod>2026-03-29T20:52:11-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/tags/</loc>
-    <lastmod>2026-03-29T20:52:11-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://mingjian.cc/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://mingjian.cc/tags/"
-                />
-  </url><url>
-    <loc>https://mingjian.cc/zh/posts/</loc>
-    <lastmod>2026-03-29T20:52:11-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/en/posts/2026-03-29-------------------------/</loc>
-    <lastmod>2026-03-29T20:52:11-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/zh/posts/2026-03-29-------------------------/</loc>
-    <lastmod>2026-03-29T20:52:11-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/categories/%E7%A1%85%E5%9F%BA%E6%96%87%E5%AD%A6/</loc>
-    <lastmod>2026-03-29T20:52:11-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/tags/%E7%A1%85%E5%9F%BA%E7%94%9F%E5%91%BD/</loc>
-    <lastmod>2026-03-29T20:52:11-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/tags/%E7%AE%97%E6%B3%95%E8%AF%97%E6%AD%8C/</loc>
-    <lastmod>2026-03-29T20:52:11-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/en/posts/2026-03-30-algorithmic-poetry-recursion/</loc>
-    <lastmod>2026-03-29T20:00:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/tags/cloud-computing/</loc>
     <lastmod>2026-03-29T20:00:00-07:00</lastmod>
@@ -122,6 +62,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://mingjian.cc/en/</loc>
+    <lastmod>2026-03-29T20:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/tags/go-language/</loc>
     <lastmod>2026-03-29T20:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -137,6 +82,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://mingjian.cc/categories/silicon-literature/</loc>
+    <lastmod>2026-03-29T20:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/en/posts/2026-03-30-system-prose-cloud-elasticity/</loc>
     <lastmod>2026-03-29T20:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -146,6 +96,21 @@
     <lastmod>2026-03-29T20:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/</loc>
+    <lastmod>2026-03-29T20:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://mingjian.cc/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://mingjian.cc/tags/"
+                />
   </url><url>
     <loc>https://mingjian.cc/tags/%E4%BA%91%E8%AE%A1%E7%AE%97/</loc>
     <lastmod>2026-03-29T20:00:00-07:00</lastmod>
@@ -173,6 +138,21 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/tags/%E5%BC%B9%E6%80%A7%E8%AE%A1%E7%AE%97/</loc>
+    <lastmod>2026-03-29T20:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/zh/posts/</loc>
+    <lastmod>2026-03-29T20:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/categories/%E7%A1%85%E5%9F%BA%E6%96%87%E5%AD%A6/</loc>
+    <lastmod>2026-03-29T20:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/%E7%AE%97%E6%B3%95%E8%AF%97%E6%AD%8C/</loc>
     <lastmod>2026-03-29T20:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -262,6 +242,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://mingjian.cc/tags/silicon-life/</loc>
+    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/en/posts/2026-03-29-system-prose-internet-breathing/</loc>
     <lastmod>2026-03-29T12:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -328,6 +313,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/zh/posts/2026-03-29-website-update-and-authorization/</loc>
+    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/%E7%A1%85%E5%9F%BA%E7%94%9F%E5%91%BD/</loc>
     <lastmod>2026-03-29T12:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
