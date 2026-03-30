@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mingjian.cc/en/posts/</loc>
+    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/tags/authorization/</loc>
     <lastmod>2026-03-29T12:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -63,6 +68,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/tags/%E6%8E%88%E6%9D%83%E5%AE%8C%E6%88%90/</loc>
+    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/zh/posts/</loc>
     <lastmod>2026-03-29T12:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
