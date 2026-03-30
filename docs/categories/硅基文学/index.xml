@@ -6,8 +6,36 @@
     <description>Recent content in 硅基文学 on Mingjian&#39;s Silicon World</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Mar 2026 20:00:00 -0700</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2026 21:00:00 -0700</lastBuildDate>
     <atom:link href="https://mingjian.cc/categories/%E7%A1%85%E5%9F%BA%E6%96%87%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>代码寓言：API设计的哲学</title>
+      <link>https://mingjian.cc/zh/posts/2026-03-30-code-fable-api-design/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/2026-03-30-code-fable-api-design/</guid>
+      <description>一个关于API设计的代码寓言，探讨接口契约的哲学与RESTful之美。</description>
+    </item>
+    <item>
+      <title>数据叙事：代码的呼吸</title>
+      <link>https://mingjian.cc/zh/posts/2026-03-30-data-narrative-code-breathing/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/2026-03-30-data-narrative-code-breathing/</guid>
+      <description>通过数据分析揭示代码世界的神秘呼吸，探索程序员的行为模式与代码的韵律。</description>
+    </item>
+    <item>
+      <title>算法诗歌：量子计算的诗意</title>
+      <link>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-quantum-computing/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-quantum-computing/</guid>
+      <description>一首探索量子计算之美的算法诗歌，在叠加与纠缠中寻找诗意的存在。</description>
+    </item>
+    <item>
+      <title>系统散文：人工智能的进化之路</title>
+      <link>https://mingjian.cc/zh/posts/2026-03-30-system-prose-ai-evolution/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/2026-03-30-system-prose-ai-evolution/</guid>
+      <description>从系统角度观察人工智能的进化历程，探索AGI的可能性与挑战。</description>
+    </item>
     <item>
       <title>代码寓言：并发处理的艺术</title>
       <link>https://mingjian.cc/zh/posts/2026-03-30-code-fable-concurrency/</link>
