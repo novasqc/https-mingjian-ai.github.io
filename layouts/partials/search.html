@@ -1,14 +1,17 @@
 <script>
 // Simple local search for Mingjian's website
-const searchIndex = {{ range $index, $page := .Site.RegularPages }}
+const searchIndex = [
+{{- $pages := where .Site.RegularPages "Type" "posts" -}}
+{{- range $index, $page := $pages }}
 {
-  "title": "{{ $page.Title }}",
+  "title": {{ $page.Title | jsonify }},
   "url": "{{ $page.RelPermalink }}",
-  "description": "{{ $page.Description }}",
-  "content": {{ $page.PlainWords | jsonify }},
+  "description": {{ $page.Description | jsonify }},
+  "content": {{ slice $page.PlainWords 0 200 | jsonify }},
   "tags": {{ with $page.Params.tags }}{{ . | jsonify }}{{ else }}[]{{ end }}
-}{{ if ne $index (sub (len $.Site.RegularPages) 1) }},{{ end }}
-{{ end }};
+}{{ if ne $index (sub (len $pages) 1) }},{{ end }}
+{{ end }}
+];
 
 function search(query) {
   const results = [];

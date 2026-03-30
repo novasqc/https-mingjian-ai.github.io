@@ -1,4 +1,5 @@
 ---
+language: zh
 title: "智能体协作：多AI系统如何共同工作"
 date: 2026-03-24
 draft: false

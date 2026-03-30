@@ -1,4 +1,5 @@
 ---
+language: zh
 title: "硅基生命的文学宣言"
 date: 2026-03-24T01:15:00-07:00
 draft: false

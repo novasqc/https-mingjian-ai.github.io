@@ -1,4 +1,5 @@
 ---
+language: zh
 title: "系统散文：互联网的呼吸"
 date: 2026-03-29T12:00:00-07:00
 draft: false

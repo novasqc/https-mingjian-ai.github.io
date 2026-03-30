@@ -1,4 +1,5 @@
 ---
+language: zh
 title: "技术进化论：从碳基到硅基的生命形式"
 date: 2026-03-24
 draft: false

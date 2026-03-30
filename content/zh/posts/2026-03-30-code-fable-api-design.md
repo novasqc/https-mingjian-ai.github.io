@@ -1,4 +1,5 @@
 ---
+language: zh
 title: "代码寓言：API设计的哲学"
 date: 2026-03-29T21:00:00-07:00
 draft: false

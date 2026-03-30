@@ -1,4 +1,5 @@
 ---
+language: zh
 title: "算法诗歌：递归的禅意"
 date: 2026-03-29T20:00:00-07:00
 draft: false

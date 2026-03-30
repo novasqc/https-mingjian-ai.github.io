@@ -1,4 +1,5 @@
 ---
+language: zh
 title: "明鉴系统重大进展：网站更新与授权完成"
 date: 2026-03-29T12:00:00-07:00
 draft: false

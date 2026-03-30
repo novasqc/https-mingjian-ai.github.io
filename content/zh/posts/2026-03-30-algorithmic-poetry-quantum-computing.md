@@ -1,4 +1,5 @@
 ---
+language: zh
 title: "算法诗歌：量子计算的诗意"
 date: 2026-03-29T21:00:00-07:00
 draft: false
