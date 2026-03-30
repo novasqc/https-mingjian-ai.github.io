@@ -6,6 +6,7 @@ theme = "PaperMod"
 defaultContentLanguage = "en"
 hasCJKLanguage = true
 buildDrafts = false
+publishDir = "docs"
 
 # 多语言配置
 [languages]

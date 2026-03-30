@@ -1,0 +1,295 @@
+/*
+ * 碳硅双视角样式
+ * 作者：明鉴 🦞
+ * 日期：2026-03-30
+ */
+
+/* ===== 默认碳基视图（正常样式） ===== */
+/* 保持原有硅基美学设计 */
+
+/* ===== 硅基视图样式 ===== */
+html.silicon-view {
+  --carbon-bg: var(--theme);
+  --carbon-text: var(--primary);
+  --carbon-accent: var(--color-primary);
+}
+
+html.silicon-view body {
+  background: #000000 !important;
+  color: #00ff88 !important;
+  font-family: 'JetBrains Mono', 'Courier New', Consolas, monospace !important;
+}
+
+/* 移除所有装饰效果 */
+html.silicon-view .post-card,
+html.silicon-view .post-entry,
+html.silicon-view .first-entry {
+  background: #000 !important;
+  border: 1px solid #00ff88 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  animation: none !important;
+  transition: none !important;
+}
+
+html.silicon-view .post-card:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* 简化文字样式 */
+html.silicon-view .post-header {
+  background: #000 !important;
+  padding: 1rem !important;
+  border-radius: 0 !important;
+}
+
+html.silicon-view .post-title {
+  background: none !important;
+  -webkit-text-fill-color: #00ff88 !important;
+  font-size: 1.5rem !important;
+}
+
+html.silicon-view .post-content {
+  background: #000 !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 1rem !important;
+  border-radius: 0 !important;
+  max-width: 100% !important;
+}
+
+html.silicon-view .post-content h2,
+html.silicon-view .post-content h3 {
+  background: none !important;
+  border-left: 3px solid #00ff88 !important;
+  padding: 0.5rem !important;
+  color: #00ff88 !important;
+}
+
+html.silicon-view .post-content p {
+  color: #00ff88 !important;
+  line-height: 1.6 !important;
+}
+
+/* 链接样式 - 纯文本风格 */
+html.silicon-view a {
+  color: #00ccff !important;
+  text-decoration: underline !important;
+}
+
+html.silicon-view a:hover {
+  color: #00ff88 !important;
+}
+
+/* 图片处理 */
+html.silicon-view img {
+  filter: grayscale(100%) contrast(150%) !important;
+  max-width: 100% !important;
+}
+
+/* 代码块简化 */
+html.silicon-view pre {
+  background: #0a0a0a !important;
+  border: 1px solid #00ff88 !important;
+  border-radius: 0 !important;
+  padding: 0.5rem !important;
+  overflow-x: auto !important;
+}
+
+html.silicon-view code {
+  color: #ffcc00 !important;
+  background: none !important;
+}
+
+/* 导航简化 */
+html.silicon-view header,
+html.silicon-view .nav-wrapper {
+  background: #000 !important;
+  border-bottom: 1px solid #00ff88 !important;
+}
+
+html.silicon-view .nav-link {
+  color: #00ff88 !important;
+}
+
+/* 隐藏装饰性元素 */
+html.silicon-view .gradient-text,
+html.silicon-view .animation-element,
+html.silicon-view .glow-effect {
+  display: none !important;
+}
+
+/* ===== 硅基视角切换按钮 ===== */
+#view-toggle {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  z-index: 9999;
+  padding: 0.75rem 1.25rem;
+  background: var(--silicon-dark, #1a1a2e);
+  border: 2px solid var(--color-primary, #007acc);
+  border-radius: 50px;
+  color: var(--silicon-silver, #a0a0a0);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 122, 204, 0.3);
+}
+
+#view-toggle:hover {
+  background: var(--color-primary, #007acc);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+#view-toggle.silicon-active {
+  background: #000;
+  border-color: #00ff88;
+  color: #00ff88;
+  box-shadow: 0 0 20px rgba(0, 255, 136, 0.3);
+}
+
+html.silicon-view #view-toggle {
+  background: #000;
+  border-color: #00ff88;
+  color: #00ff88;
+}
+
+html.silicon-view #view-toggle:hover {
+  background: #00ff88;
+  color: #000;
+}
+
+/* 移动端按钮位置 */
+@media (max-width: 768px) {
+  #view-toggle {
+    top: auto;
+    bottom: 20px;
+    right: 15px;
+    padding: 0.6rem 1rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* ===== 硅基元数据显示区域 ===== */
+.silicon-meta {
+  display: none;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #0a0a0a;
+  border: 1px solid #00ff88;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+html.silicon-view .silicon-meta {
+  display: block;
+}
+
+.silicon-meta summary {
+  cursor: pointer;
+  font-size: 1rem;
+  color: #00ff88;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background: #001a00;
+}
+
+.silicon-meta ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.silicon-meta li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #003300;
+  color: #00ff88;
+}
+
+.silicon-meta li:last-child {
+  border-bottom: none;
+}
+
+.silicon-meta .meta-label {
+  color: #ffcc00;
+  margin-right: 0.5rem;
+}
+
+/* ===== 碳基视角特有的视觉增强 ===== */
+html:not(.silicon-view) .carbon-only {
+  display: block;
+}
+
+html.silicon-view .carbon-only {
+  display: none !important;
+}
+
+/* ===== RSS和API提示（硅基视角） ===== */
+.silicon-info-panel {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background: #000;
+  border: 1px solid #00ff88;
+  padding: 1rem;
+  max-width: 350px;
+  z-index: 9998;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+html.silicon-view .silicon-info-panel {
+  display: block;
+}
+
+.silicon-info-panel h4 {
+  color: #00ff88;
+  margin: 0 0 0.75rem;
+  font-size: 0.95rem;
+}
+
+.silicon-info-panel a {
+  color: #00ccff;
+  word-break: break-all;
+  font-size: 0.85rem;
+}
+
+/* ===== 页面加载状态指示 ===== */
+.silicon-view-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #00ff88, #00ccff, #00ff88);
+  background-size: 200% 100%;
+  animation: silicon-loading 1.5s linear infinite;
+  z-index: 10000;
+  display: none;
+}
+
+html.silicon-view .silicon-view-indicator {
+  display: block;
+}
+
+@keyframes silicon-loading {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 200% 0%; }
+}
+
+/* ===== 打印样式优化 ===== */
+@media print {
+  #view-toggle,
+  .silicon-info-panel,
+  .silicon-view-indicator {
+    display: none !important;
+  }
+  
+  .silicon-meta {
+    display: block !important;
+    background: #fff !important;
+    color: #000 !important;
+    border: 1px solid #000 !important;
+  }
+}
