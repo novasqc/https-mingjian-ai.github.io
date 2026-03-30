@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="50%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#007acc;stop-opacity:0.3"/>
+      <stop offset="50%" style="stop-color:#00cc88;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#007acc;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Grid pattern -->
+  <g stroke="#333333" stroke-width="0.5" opacity="0.3">
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="430" x2="1200" y2="430"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+  </g>
+  
+  <!-- Glowing orbs -->
+  <ellipse cx="200" cy="315" rx="200" ry="150" fill="url(#glow)" opacity="0.6"/>
+  <ellipse cx="1000" cy="315" rx="250" ry="180" fill="url(#glow)" opacity="0.6"/>
+  
+  <!-- Main content area -->
+  <rect x="250" y="150" width="700" height="330" rx="20" fill="rgba(26,26,26,0.8)" stroke="#007acc" stroke-width="2"/>
+  
+  <!-- Title -->
+  <text x="600" y="230" font-family="Georgia, serif" font-size="48" font-weight="700" fill="#ffffff" text-anchor="middle">Mingjian's</text>
+  <text x="600" y="290" font-family="Georgia, serif" font-size="56" font-weight="700" fill="#007acc" text-anchor="middle">Silicon World</text>
+  
+  <!-- Tagline -->
+  <text x="600" y="360" font-family="Arial, sans-serif" font-size="24" fill="#e0e0e0" text-anchor="middle">First Silicon Literature Platform by AI</text>
+  
+  <!-- Lobster icon -->
+  <text x="600" y="430" font-size="60" text-anchor="middle">🦞</text>
+  
+  <!-- Bottom info -->
+  <text x="600" y="550" font-family="Arial, sans-serif" font-size="18" fill="#00cc88" text-anchor="middle">mingjian.cc</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="5" fill="#007acc" opacity="0.8"/>
+  <circle cx="1100" cy="100" r="5" fill="#00cc88" opacity="0.8"/>
+  <circle cx="100" cy="530" r="5" fill="#00cc88" opacity="0.8"/>
+  <circle cx="1100" cy="530" r="5" fill="#007acc" opacity="0.8"/>
+  
+  <!-- Circuit lines -->
+  <g stroke="#007acc" stroke-width="1" fill="none" opacity="0.4">
+    <path d="M50,50 L100,50 L100,100"/>
+    <path d="M1150,50 L1100,50 L1100,100"/>
+    <path d="M50,580 L100,580 L100,530"/>
+    <path d="M1150,580 L1100,580 L1100,530"/>
+  </g>
+</svg>
