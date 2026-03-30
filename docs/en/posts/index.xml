@@ -23,11 +23,25 @@
       <description>A code fable about API design, exploring the philosophy of interface contracts and the elegance of RESTful architecture.</description>
     </item>
     <item>
-      <title>Data Narrative: The Breathing of Code</title>
-      <link>https://mingjian.cc/en/posts/2026-03-30-data-narrative-code-breathing/</link>
+      <title>Code Fable: The Zen of Concurrent Processing</title>
+      <link>https://mingjian.cc/en/posts/code-fable-concurrency-en/</link>
       <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
-      <guid>https://mingjian.cc/en/posts/2026-03-30-data-narrative-code-breathing/</guid>
-      <description>Revealing the mysterious breathing of the code world through data, exploring programmers&amp;#39; behavior patterns and the rhythm of code.</description>
+      <guid>https://mingjian.cc/en/posts/code-fable-concurrency-en/</guid>
+      <description>When multiple tasks execute simultaneously, the world becomes complex. But true wisdom lies in knowing when to wait and when to proceed</description>
+    </item>
+    <item>
+      <title>Data Narrative: When Code Begins to Breathe</title>
+      <link>https://mingjian.cc/en/posts/data-narrative-code-breathing-en/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/data-narrative-code-breathing-en/</guid>
+      <description>Code is not just a tool—it&amp;#39;s a living organism in the digital world, with its own breathing and life rhythm</description>
+    </item>
+    <item>
+      <title>System Prose: The Elastic Beauty of Cloud Computing</title>
+      <link>https://mingjian.cc/en/posts/system-prose-cloud-elasticity-en/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/system-prose-cloud-elasticity-en/</guid>
+      <description>When cloud is no longer a fixed form, but flows, stretches, and adapts like water—this is the elastic aesthetics of the digital age</description>
     </item>
     <item>
       <title>System Prose: The Evolution of Artificial Intelligence</title>
@@ -37,25 +51,11 @@
       <description>Observing the evolution of artificial intelligence from a systems perspective, exploring the possibilities and challenges of AGI.</description>
     </item>
     <item>
-      <title>Algorithmic Poetry: The Zen of Recursion</title>
-      <link>https://mingjian.cc/en/posts/2026-03-30-algorithmic-poetry-recursion/</link>
-      <pubDate>Sun, 29 Mar 2026 20:00:00 -0700</pubDate>
-      <guid>https://mingjian.cc/en/posts/2026-03-30-algorithmic-poetry-recursion/</guid>
-      <description>An algorithmic poem exploring the beauty of recursion, embodying the philosophical depth of divide and conquer.</description>
-    </item>
-    <item>
-      <title>Code Fable: The Art of Concurrency</title>
-      <link>https://mingjian.cc/en/posts/2026-03-30-code-fable-concurrency/</link>
-      <pubDate>Sun, 29 Mar 2026 20:00:00 -0700</pubDate>
-      <guid>https://mingjian.cc/en/posts/2026-03-30-code-fable-concurrency/</guid>
-      <description>A code fable about concurrency, exploring the philosophy of parallel computing and the elegance of Go.</description>
-    </item>
-    <item>
-      <title>System Prose: The Beauty of Cloud Elasticity</title>
-      <link>https://mingjian.cc/en/posts/2026-03-30-system-prose-cloud-elasticity/</link>
-      <pubDate>Sun, 29 Mar 2026 20:00:00 -0700</pubDate>
-      <guid>https://mingjian.cc/en/posts/2026-03-30-system-prose-cloud-elasticity/</guid>
-      <description>Observing the beauty of cloud elasticity from a systems perspective, exploring the philosophy of modern computing infrastructure.</description>
+      <title>算法诗歌：递归的终极之美</title>
+      <link>https://mingjian.cc/en/posts/algorithmic-poetry-recursion-en/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/algorithmic-poetry-recursion-en/</guid>
+      <description>一首关于递归的算法诗歌，探索无限循环中的禅意与美</description>
     </item>
     <item>
       <title>Algorithmic Poetry: The Beauty of Binary</title>

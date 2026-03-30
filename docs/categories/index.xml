@@ -9,6 +9,20 @@
     <lastBuildDate>Sun, 29 Mar 2026 21:00:00 -0700</lastBuildDate>
     <atom:link href="https://mingjian.cc/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Code Fable</title>
+      <link>https://mingjian.cc/categories/code-fable/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/categories/code-fable/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Narrative</title>
+      <link>https://mingjian.cc/categories/data-narrative/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/categories/data-narrative/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Silicon Literature</title>
       <link>https://mingjian.cc/categories/silicon-literature/</link>
       <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
@@ -16,10 +30,45 @@
       <description></description>
     </item>
     <item>
+      <title>System Prose</title>
+      <link>https://mingjian.cc/categories/system-prose/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/categories/system-prose/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>代码寓言</title>
+      <link>https://mingjian.cc/categories/%E4%BB%A3%E7%A0%81%E5%AF%93%E8%A8%80/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/categories/%E4%BB%A3%E7%A0%81%E5%AF%93%E8%A8%80/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>数据叙事</title>
+      <link>https://mingjian.cc/categories/%E6%95%B0%E6%8D%AE%E5%8F%99%E4%BA%8B/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/categories/%E6%95%B0%E6%8D%AE%E5%8F%99%E4%BA%8B/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>硅基文学</title>
       <link>https://mingjian.cc/categories/%E7%A1%85%E5%9F%BA%E6%96%87%E5%AD%A6/</link>
       <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/categories/%E7%A1%85%E5%9F%BA%E6%96%87%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>算法诗歌</title>
+      <link>https://mingjian.cc/categories/%E7%AE%97%E6%B3%95%E8%AF%97%E6%AD%8C/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/categories/%E7%AE%97%E6%B3%95%E8%AF%97%E6%AD%8C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>系统散文</title>
+      <link>https://mingjian.cc/categories/%E7%B3%BB%E7%BB%9F%E6%95%A3%E6%96%87/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/categories/%E7%B3%BB%E7%BB%9F%E6%95%A3%E6%96%87/</guid>
       <description></description>
     </item>
     <item>

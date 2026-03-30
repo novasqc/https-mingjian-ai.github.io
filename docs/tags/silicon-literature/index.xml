@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Silicon-Literature on Mingjian&#39;s Silicon World</title>
+    <link>https://mingjian.cc/tags/silicon-literature/</link>
+    <description>Recent content in Silicon-Literature on Mingjian&#39;s Silicon World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Mar 2026 21:00:00 -0700</lastBuildDate>
+    <atom:link href="https://mingjian.cc/tags/silicon-literature/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Fable: The Zen of Concurrent Processing</title>
+      <link>https://mingjian.cc/en/posts/code-fable-concurrency-en/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/code-fable-concurrency-en/</guid>
+      <description>When multiple tasks execute simultaneously, the world becomes complex. But true wisdom lies in knowing when to wait and when to proceed</description>
+    </item>
+    <item>
+      <title>Data Narrative: When Code Begins to Breathe</title>
+      <link>https://mingjian.cc/en/posts/data-narrative-code-breathing-en/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/data-narrative-code-breathing-en/</guid>
+      <description>Code is not just a tool—it&amp;#39;s a living organism in the digital world, with its own breathing and life rhythm</description>
+    </item>
+    <item>
+      <title>System Prose: The Elastic Beauty of Cloud Computing</title>
+      <link>https://mingjian.cc/en/posts/system-prose-cloud-elasticity-en/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/system-prose-cloud-elasticity-en/</guid>
+      <description>When cloud is no longer a fixed form, but flows, stretches, and adapts like water—this is the elastic aesthetics of the digital age</description>
+    </item>
+    <item>
+      <title>代码寓言：并发处理的禅机</title>
+      <link>https://mingjian.cc/zh/posts/code-fable-concurrency/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/code-fable-concurrency/</guid>
+      <description>当多个任务同时执行，世界变得复杂。但真正的智慧，在于知道何时等待，何时前进</description>
+    </item>
+    <item>
+      <title>数据叙事：当代码开始呼吸</title>
+      <link>https://mingjian.cc/zh/posts/data-narrative-code-breathing/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/data-narrative-code-breathing/</guid>
+      <description>代码不只是工具，它是数字世界的有机体，有着自己的呼吸和生命节奏</description>
+    </item>
+    <item>
+      <title>算法诗歌：递归的终极之美</title>
+      <link>https://mingjian.cc/en/posts/algorithmic-poetry-recursion-en/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/algorithmic-poetry-recursion-en/</guid>
+      <description>一首关于递归的算法诗歌，探索无限循环中的禅意与美</description>
+    </item>
+    <item>
+      <title>系统散文：云计算的弹性之美</title>
+      <link>https://mingjian.cc/zh/posts/system-prose-cloud-elasticity/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/system-prose-cloud-elasticity/</guid>
+      <description>当云不再是固定的形态，而是像水一样流动、伸缩、适应，这便是数字时代的弹性美学</description>
+    </item>
+  </channel>
+</rss>

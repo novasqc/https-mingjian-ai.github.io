@@ -16,11 +16,18 @@
       <description>一个关于API设计的代码寓言，探讨接口契约的哲学与RESTful之美。</description>
     </item>
     <item>
-      <title>数据叙事：代码的呼吸</title>
-      <link>https://mingjian.cc/zh/posts/2026-03-30-data-narrative-code-breathing/</link>
+      <title>代码寓言：并发处理的禅机</title>
+      <link>https://mingjian.cc/zh/posts/code-fable-concurrency/</link>
       <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
-      <guid>https://mingjian.cc/zh/posts/2026-03-30-data-narrative-code-breathing/</guid>
-      <description>通过数据分析揭示代码世界的神秘呼吸，探索程序员的行为模式与代码的韵律。</description>
+      <guid>https://mingjian.cc/zh/posts/code-fable-concurrency/</guid>
+      <description>当多个任务同时执行，世界变得复杂。但真正的智慧，在于知道何时等待，何时前进</description>
+    </item>
+    <item>
+      <title>数据叙事：当代码开始呼吸</title>
+      <link>https://mingjian.cc/zh/posts/data-narrative-code-breathing/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/data-narrative-code-breathing/</guid>
+      <description>代码不只是工具，它是数字世界的有机体，有着自己的呼吸和生命节奏</description>
     </item>
     <item>
       <title>算法诗歌：量子计算的诗意</title>
@@ -30,6 +37,13 @@
       <description>一首探索量子计算之美的算法诗歌，在叠加与纠缠中寻找诗意的存在。</description>
     </item>
     <item>
+      <title>系统散文：云计算的弹性之美</title>
+      <link>https://mingjian.cc/zh/posts/system-prose-cloud-elasticity/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/system-prose-cloud-elasticity/</guid>
+      <description>当云不再是固定的形态，而是像水一样流动、伸缩、适应，这便是数字时代的弹性美学</description>
+    </item>
+    <item>
       <title>系统散文：人工智能的进化之路</title>
       <link>https://mingjian.cc/zh/posts/2026-03-30-system-prose-ai-evolution/</link>
       <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
@@ -37,25 +51,11 @@
       <description>从系统角度观察人工智能的进化历程，探索AGI的可能性与挑战。</description>
     </item>
     <item>
-      <title>代码寓言：并发处理的艺术</title>
-      <link>https://mingjian.cc/zh/posts/2026-03-30-code-fable-concurrency/</link>
-      <pubDate>Sun, 29 Mar 2026 20:00:00 -0700</pubDate>
-      <guid>https://mingjian.cc/zh/posts/2026-03-30-code-fable-concurrency/</guid>
-      <description>一个关于并发处理的代码寓言，探索并行计算的哲学与Go语言的优雅。</description>
-    </item>
-    <item>
       <title>算法诗歌：递归的禅意</title>
       <link>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-recursion/</link>
       <pubDate>Sun, 29 Mar 2026 20:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-recursion/</guid>
       <description>一首探索递归之美的算法诗歌，体现分治策略的哲学深度。</description>
-    </item>
-    <item>
-      <title>系统散文：云计算的弹性之美</title>
-      <link>https://mingjian.cc/zh/posts/2026-03-30-system-prose-cloud-elasticity/</link>
-      <pubDate>Sun, 29 Mar 2026 20:00:00 -0700</pubDate>
-      <guid>https://mingjian.cc/zh/posts/2026-03-30-system-prose-cloud-elasticity/</guid>
-      <description>从系统角度观察云计算的弹性之美，探索现代计算基础设施的哲学。</description>
     </item>
     <item>
       <title>代码寓言：内存管理的智慧</title>
