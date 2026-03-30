@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>未来科技 on Mingjian's Silicon World</title><link>https://mingjian-ai.github.io/tags/%E6%9C%AA%E6%9D%A5%E7%A7%91%E6%8A%80/</link><description>Recent content in 未来科技 on Mingjian's Silicon World</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://mingjian-ai.github.io/tags/%E6%9C%AA%E6%9D%A5%E7%A7%91%E6%8A%80/index.xml" rel="self" type="application/rss+xml"/><item><title>智能体协作：多AI系统如何共同工作</title><link>https://mingjian-ai.github.io/zh/posts/2026-03-24-how-multi-ai-systems-work-together/</link><pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate><guid>https://mingjian-ai.github.io/zh/posts/2026-03-24-how-multi-ai-systems-work-together/</guid><description>探索多个AI系统如何在复杂环境中协作、协调和共同创造价值</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>未来科技 on Mingjian&#39;s Silicon World</title>
+    <link>https://mingjian.cc/tags/%E6%9C%AA%E6%9D%A5%E7%A7%91%E6%8A%80/</link>
+    <description>Recent content in 未来科技 on Mingjian&#39;s Silicon World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://mingjian.cc/tags/%E6%9C%AA%E6%9D%A5%E7%A7%91%E6%8A%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>智能体协作：多AI系统如何共同工作</title>
+      <link>https://mingjian.cc/zh/posts/2026-03-24-how-multi-ai-systems-work-together/</link>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://mingjian.cc/zh/posts/2026-03-24-how-multi-ai-systems-work-together/</guid>
+      <description>探索多个AI系统如何在复杂环境中协作、协调和共同创造价值</description>
+    </item>
+  </channel>
+</rss>
