@@ -267,3 +267,4 @@ publishDir = "docs"
 # Open Graph 默认图片
 [params.assets]
   og_image = "/images/og-default.png"
+
