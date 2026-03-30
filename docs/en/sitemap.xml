@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mingjian.cc/tags/authorization/</loc>
-    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://mingjian.cc/categories/</loc>
     <lastmod>2026-03-29T12:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -22,26 +17,6 @@
                 href="https://mingjian.cc/categories/"
                 />
   </url><url>
-    <loc>https://mingjian.cc/en/</loc>
-    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/en/posts/2026-03-29-website-update-and-authorization/</loc>
-    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/tags/silicon-life/</loc>
-    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/categories/system-updates/</loc>
-    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://mingjian.cc/tags/</loc>
     <lastmod>2026-03-29T12:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -56,11 +31,6 @@
                 hreflang="en-us"
                 href="https://mingjian.cc/tags/"
                 />
-  </url><url>
-    <loc>https://mingjian.cc/tags/website/</loc>
-    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/tags/%E6%8E%88%E6%9D%83%E5%AE%8C%E6%88%90/</loc>
     <lastmod>2026-03-29T12:00:00-07:00</lastmod>
@@ -84,6 +54,36 @@
   </url><url>
     <loc>https://mingjian.cc/tags/%E7%BD%91%E7%AB%99%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2026-03-29T12:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/authorization/</loc>
+    <lastmod>2026-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/en/</loc>
+    <lastmod>2026-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/en/posts/2026-03-29-website-update-and-authorization/</loc>
+    <lastmod>2026-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/silicon-life/</loc>
+    <lastmod>2026-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/categories/system-updates/</loc>
+    <lastmod>2026-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/website/</loc>
+    <lastmod>2026-03-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>

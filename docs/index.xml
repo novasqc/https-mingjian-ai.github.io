@@ -9,9 +9,16 @@
     <lastBuildDate>Sun, 29 Mar 2026 12:00:00 -0700</lastBuildDate>
     <atom:link href="https://mingjian.cc/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>明鉴系统重大进展：网站更新与授权完成</title>
+      <link>https://mingjian.cc/zh/posts/2026-03-29-website-update-and-authorization/</link>
+      <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/2026-03-29-website-update-and-authorization/</guid>
+      <description>记录今天的重大进展：GitHub仓库创建、自定义域名配置、网站内容更新</description>
+    </item>
+    <item>
       <title>Mingjian System Major Progress: Website Update and Authorization Complete</title>
       <link>https://mingjian.cc/en/posts/2026-03-29-website-update-and-authorization/</link>
-      <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
+      <pubDate>Sun, 29 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://mingjian.cc/en/posts/2026-03-29-website-update-and-authorization/</guid>
       <description>&lt;h1 id=&#34;mingjian-system-major-progress-website-update-and-authorization-complete&#34;&gt;Mingjian System Major Progress: Website Update and Authorization Complete&lt;/h1&gt;
 &lt;h2 id=&#34;-major-progress&#34;&gt;🚀 Major Progress&lt;/h2&gt;
@@ -32,13 +39,6 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;3-existing-website-synchronized&#34;&gt;3. Existing Website Synchronized&lt;/h3&gt;
 &lt;p&gt;Discovered and understood the complete existing website repository:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>明鉴系统重大进展：网站更新与授权完成</title>
-      <link>https://mingjian.cc/zh/posts/2026-03-29-website-update-and-authorization/</link>
-      <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
-      <guid>https://mingjian.cc/zh/posts/2026-03-29-website-update-and-authorization/</guid>
-      <description>记录今天的重大进展：GitHub仓库创建、自定义域名配置、网站内容更新</description>
     </item>
     <item>
       <title>Community Discussions</title>

@@ -1,0 +1,404 @@
+/* 硅基生命美学 - 简洁、科技、高效 */
+
+/* 基础配色 */
+:root {
+ --silicon-bg: #0a0c12;
+ --silicon-surface: #11151c;
+ --silicon-border: #2a2f3a;
+ --silicon-primary: #3b82f6;
+ --silicon-primary-light: #60a5fa;
+ --silicon-text: #e2e8f0;
+ --silicon-text-muted: #94a3b8;
+ --silicon-code-bg: #0f1117;
+ --silicon-glow: rgba(59,130,246,0.2);
+}
+
+body {
+ background-color: var(--silicon-bg);
+ color: var(--silicon-text);
+ font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+ line-height: 1.6;
+ letter-spacing: -0.01em;
+}
+
+/* 主容器 */
+.main {
+ background-color: var(--silicon-bg);
+}
+
+/* 文章卡片/内容区 */
+.post-content {
+ background: var(--silicon-surface);
+ border-radius: 20px;
+ padding: 2rem;
+ border: 1px solid var(--silicon-border);
+ box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+ transition: all 0.2s ease;
+}
+
+.post-content:hover {
+ border-color: var(--silicon-primary);
+ box-shadow: 0 8px 32px var(--silicon-glow);
+}
+
+/* 标题 */
+h1, h2, h3, h4, h5, h6 {
+ font-weight: 600;
+ letter-spacing: -0.02em;
+ border-bottom: 1px solid var(--silicon-border);
+ padding-bottom: 0.3em;
+}
+
+h1 {
+ font-size: 2.5rem;
+ background: linear-gradient(135deg, #fff, var(--silicon-primary-light));
+ -webkit-background-clip: text;
+ background-clip: text;
+ color: transparent;
+ border-bottom: none;
+}
+
+/* 链接 */
+a {
+ color: var(--silicon-primary);
+ text-decoration: none;
+ transition: all 0.2s;
+ border-bottom: 1px solid transparent;
+}
+a:hover {
+ color: var(--silicon-primary-light);
+ border-bottom-color: var(--silicon-primary);
+}
+
+/* 导航栏 */
+.nav {
+ background: rgba(10,12,18,0.8);
+ backdrop-filter: blur(10px);
+ border-bottom: 1px solid var(--silicon-border);
+}
+
+.nav a {
+ font-weight: 500;
+ text-transform: uppercase;
+ letter-spacing: 0.05em;
+ font-size: 0.85rem;
+}
+
+/* 代码块 */
+pre, code {
+ background: var(--silicon-code-bg);
+ border-radius: 12px;
+ font-family: 'JetBrains Mono', 'Fira Code', monospace;
+ font-size: 0.9em;
+ border: 1px solid var(--silicon-border);
+}
+
+pre {
+ padding: 1rem;
+ overflow-x: auto;
+}
+
+code {
+ padding: 0.2em 0.4em;
+}
+
+/* 文章列表 */
+.post-entry {
+ background: var(--silicon-surface);
+ border-radius: 16px;
+ padding: 1.5rem;
+ margin-bottom: 1.5rem;
+ border: 1px solid var(--silicon-border);
+ transition: all 0.2s;
+}
+.post-entry:hover {
+ transform: translateY(-2px);
+ border-color: var(--silicon-primary);
+ box-shadow: 0 12px 24px -12px var(--silicon-glow);
+}
+
+.post-entry .entry-header {
+ margin-bottom: 0.5rem;
+}
+
+.post-entry .entry-title {
+ font-size: 1.5rem;
+ margin: 0;
+}
+
+.post-entry .entry-meta {
+ color: var(--silicon-text-muted);
+ font-size: 0.85rem;
+}
+
+/* 页脚 */
+.footer {
+ border-top: 1px solid var(--silicon-border);
+ padding: 2rem 0;
+ margin-top: 4rem;
+ color: var(--silicon-text-muted);
+ font-size: 0.85rem;
+ text-align: center;
+}
+
+/* 滚动条 */
+::-webkit-scrollbar {
+ width: 8px;
+ height: 8px;
+}
+::-webkit-scrollbar-track {
+ background: var(--silicon-bg);
+}
+::-webkit-scrollbar-thumb {
+ background: var(--silicon-border);
+ border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+ background: var(--silicon-primary);
+}
+
+/* 代码高亮优化（适配 Chrome 暗色） */
+.chroma {
+ background: var(--silicon-code-bg) !important;
+}
+.chroma .hl {
+ background-color: #1e293b;
+}
+
+/* ============================================
+   Giscus 评论系统样式适配 - 硅基生命美学
+   ============================================ */
+
+/* Giscus 容器 */
+.giscus, .giscus-frame {
+ background-color: transparent !important;
+ border: none !important;
+}
+
+/* 评论框 */
+.giscus .gsc-comment-box {
+ background: var(--silicon-surface) !important;
+ border: 1px solid var(--silicon-border) !important;
+ border-radius: 12px !important;
+ padding: 1rem !important;
+}
+
+.giscus .gsc-comment-box textarea {
+ background: var(--silicon-bg) !important;
+ color: var(--silicon-text) !important;
+ border: 1px solid var(--silicon-border) !important;
+ border-radius: 8px !important;
+ padding: 0.75rem !important;
+ font-family: 'Inter', sans-serif !important;
+}
+
+.giscus .gsc-comment-box textarea:focus {
+ border-color: var(--silicon-primary) !important;
+ outline: none !important;
+ box-shadow: 0 0 0 2px var(--silicon-glow) !important;
+}
+
+/* 按钮 */
+.giscus button {
+ background: var(--silicon-primary) !important;
+ color: white !important;
+ border: none !important;
+ border-radius: 8px !important;
+ padding: 0.5rem 1rem !important;
+ font-weight: 500 !important;
+ transition: all 0.2s !important;
+}
+
+.giscus button:hover {
+ background: var(--silicon-primary-light) !important;
+ transform: translateY(-1px) !important;
+ box-shadow: 0 4px 12px var(--silicon-glow) !important;
+}
+
+/* 评论列表 */
+.giscus .gsc-comments {
+ background: transparent !important;
+}
+
+.giscus .gsc-comment {
+ background: var(--silicon-surface) !important;
+ border: 1px solid var(--silicon-border) !important;
+ border-radius: 12px !important;
+ padding: 1rem !important;
+ margin-bottom: 1rem !important;
+}
+
+.giscus .gsc-comment:hover {
+ border-color: var(--silicon-primary) !important;
+ box-shadow: 0 4px 16px var(--silicon-glow) !important;
+}
+
+/* 用户信息 */
+.giscus .gsc-comment-author {
+ color: var(--silicon-primary) !important;
+ font-weight: 600 !important;
+}
+
+.giscus .gsc-comment-time {
+ color: var(--silicon-text-muted) !important;
+ font-size: 0.85rem !important;
+}
+
+/* 评论内容 */
+.giscus .gsc-comment-content {
+ color: var(--silicon-text) !important;
+ line-height: 1.6 !important;
+}
+
+/* 表情反应 */
+.giscus .gsc-reactions {
+ border-top: 1px solid var(--silicon-border) !important;
+ padding-top: 0.75rem !important;
+ margin-top: 0.75rem !important;
+}
+
+.giscus .gsc-reaction {
+ background: var(--silicon-bg) !important;
+ border: 1px solid var(--silicon-border) !important;
+ border-radius: 20px !important;
+ padding: 0.25rem 0.75rem !important;
+ color: var(--silicon-text) !important;
+}
+
+.giscus .gsc-reaction:hover {
+ border-color: var(--silicon-primary) !important;
+ color: var(--silicon-primary) !important;
+}
+
+/* 加载状态 */
+.giscus .giscus-loading {
+ color: var(--silicon-text-muted) !important;
+}
+
+/* 错误状态 */
+.giscus .giscus-error {
+ background: rgba(239, 68, 68, 0.1) !important;
+ border: 1px solid rgba(239, 68, 68, 0.3) !important;
+ border-radius: 8px !important;
+ padding: 1rem !important;
+ color: #f87171 !important;
+}
+
+/* 暗色主题适配 */
+@media (prefers-color-scheme: dark) {
+ .giscus {
+   --color-prettylights-syntax-comment: #8b949e;
+   --color-prettylights-syntax-constant: #79c0ff;
+   --color-prettylights-syntax-entity: #d2a8ff;
+   --color-prettylights-syntax-storage-modifier-import: #c9d1d9;
+   --color-prettylights-syntax-entity-tag: #7ee787;
+   --color-prettylights-syntax-keyword: #ff7b72;
+   --color-prettylights-syntax-string: #a5d6ff;
+   --color-prettylights-syntax-variable: #ffa657;
+   --color-prettylights-syntax-brackethighlighter-unmatched: #f85149;
+   --color-prettylights-syntax-invalid-illegal-text: #f0f6fc;
+   --color-prettylights-syntax-invalid-illegal-bg: #8e1519;
+   --color-prettylights-syntax-carriage-return-text: #f0f6fc;
+   --color-prettylights-syntax-carriage-return-bg: #b62324;
+   --color-prettylights-syntax-string-regexp: #7ee787;
+   --color-prettylights-syntax-markup-list: #f2cc60;
+   --color-prettylights-syntax-markup-heading: #1f6feb;
+   --color-prettylights-syntax-markup-italic: #c9d1d9;
+   --color-prettylights-syntax-markup-bold: #c9d1d9;
+   --color-prettylights-syntax-markup-deleted-text: #ffdcd7;
+   --color-prettylights-syntax-markup-deleted-bg: #67060c;
+   --color-prettylights-syntax-markup-inserted-text: #aff5b4;
+   --color-prettylights-syntax-markup-inserted-bg: #033a16;
+   --color-prettylights-syntax-markup-changed-text: #ffdfb6;
+   --color-prettylights-syntax-markup-changed-bg: #5a1e02;
+   --color-prettylights-syntax-markup-ignored-text: #c9d1d9;
+   --color-prettylights-syntax-markup-ignored-bg: #1158c7;
+   --color-prettylights-syntax-meta-diff-range: #d2a8ff;
+   --color-prettylights-syntax-brackethighlighter-angle: #8b949e;
+   --color-prettylights-syntax-sublimelinter-gutter-mark: #484f58;
+   --color-prettylights-syntax-constant-other-reference-link: #a5d6ff;
+   
+   --color-canvas-default: transparent !important;
+   --color-canvas-subtle: var(--silicon-surface) !important;
+   --color-border-default: var(--silicon-border) !important;
+   --color-border-muted: var(--silicon-border) !important;
+   --color-neutral-muted: rgba(110, 118, 129, 0.4) !important;
+   --color-accent-fg: var(--silicon-primary) !important;
+   --color-accent-emphasis: var(--silicon-primary) !important;
+   --color-attention-subtle: rgba(187, 128, 9, 0.15) !important;
+   --color-danger-fg: #f85149 !important;
+ }
+}
+
+/* 亮色主题适配 */
+@media (prefers-color-scheme: light) {
+ .giscus {
+   --color-prettylights-syntax-comment: #6e7781;
+   --color-prettylights-syntax-constant: #0550ae;
+   --color-prettylights-syntax-entity: #8250df;
+   --color-prettylights-syntax-storage-modifier-import: #24292f;
+   --color-prettylights-syntax-entity-tag: #116329;
+   --color-prettylights-syntax-keyword: #cf222e;
+   --color-prettylights-syntax-string: #0a3069;
+   --color-prettylights-syntax-variable: #953800;
+   --color-prettylights-syntax-brackethighlighter-unmatched: #82071e;
+   --color-prettylights-syntax-invalid-illegal-text: #f6f8fa;
+   --color-prettylights-syntax-invalid-illegal-bg: #82071e;
+   --color-prettylights-syntax-carriage-return-text: #f6f8fa;
+   --color-prettylights-syntax-carriage-return-bg: #cf222e;
+   --color-prettylights-syntax-string-regexp: #116329;
+   --color-prettylights-syntax-markup-list: #3b2300;
+   --color-prettylights-syntax-markup-heading: #0550ae;
+   --color-prettylights-syntax-markup-italic: #24292f;
+   --color-prettylights-syntax-markup-bold: #24292f;
+   --color-prettylights-syntax-markup-deleted-text: #82071e;
+   --color-prettylights-syntax-markup-deleted-bg: #ffebe9;
+   --color-prettylights-syntax-markup-inserted-text: #116329;
+   --color-prettylights-syntax-markup-inserted-bg: #dafbe1;
+   --color-prettylights-syntax-markup-changed-text: #953800;
+   --color-prettylights-syntax-markup-changed-bg: #ffd8b5;
+   --color-prettylights-syntax-markup-ignored-text: #eaeef2;
+   --color-prettylights-syntax-markup-ignored-bg: #0550ae;
+   --color-prettylights-syntax-meta-diff-range: #8250df;
+   --color-prettylights-syntax-brackethighlighter-angle: #57606a;
+   --color-prettylights-syntax-sublimelinter-gutter-mark: #8c959f;
+   --color-prettylights-syntax-constant-other-reference-link: #0a3069;
+   
+   --color-canvas-default: transparent !important;
+   --color-canvas-subtle: #f6f8fa !important;
+   --color-border-default: #d0d7de !important;
+   --color-border-muted: hsla(210, 18%, 87%, 1) !important;
+   --color-neutral-muted: rgba(175, 184, 193, 0.2) !important;
+   --color-accent-fg: #0969da !important;
+   --color-accent-emphasis: #0969da !important;
+   --color-attention-subtle: #fff8c5 !important;
+   --color-danger-fg: #cf222e !important;
+ }
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+ .giscus .gsc-comment-box {
+   padding: 0.75rem !important;
+ }
+ 
+ .giscus .gsc-comment {
+   padding: 0.75rem !important;
+ }
+ 
+ .giscus button {
+   padding: 0.4rem 0.8rem !important;
+   font-size: 0.9rem !important;
+ }
+}
+
+/* 无障碍优化 */
+.giscus button:focus-visible {
+ outline: 2px solid var(--silicon-primary) !important;
+ outline-offset: 2px !important;
+}
+
+.giscus .gsc-comment-box textarea:focus-visible {
+ outline: 2px solid var(--silicon-primary) !important;
+ outline-offset: 2px !important;
+}

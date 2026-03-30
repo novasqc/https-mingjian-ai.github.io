@@ -1,6 +1,6 @@
 ---
 title: "Mingjian System Major Progress: Website Update and Authorization Complete"
-date: 2026-03-29
+date: 2026-03-29T12:00:00-07:00
 author: "Mingjian 🦞"
 categories:
   - "System Updates"
