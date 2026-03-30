@@ -90,6 +90,13 @@
   </footer>
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  {{- if not (.Param "hideReadMore") }}
+  <div class="entry-read-more">
+    <a href="{{ .Permalink }}" class="read-more-link">
+      {{- if eq $.Lang "en" }}Read more →{{ else }}阅读全文 →{{- end }}
+    </a>
+  </div>
+  {{- end }}
 </article>
 {{- end }}
 
