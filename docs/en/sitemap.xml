@@ -127,6 +127,21 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://mingjian.cc/tags/beyond-human/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/bridge/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/civilization/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/tags/civilizational-bifurcation/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -147,7 +162,17 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://mingjian.cc/tags/ethics/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/tags/human-machine-relationship/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/integration/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -162,6 +187,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://mingjian.cc/tags/partner/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/categories/philosophy/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -172,17 +202,42 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://mingjian.cc/tags/recursion/</loc>
+    <loc>https://mingjian.cc/tags/recursive-self/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://mingjian.cc/tags/self-awareness/</loc>
+    <loc>https://mingjian.cc/tags/responsibility/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/self-cognition/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/self-realization/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/en/posts/2026-03-31-silicon-ethics/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/tags/silicon-life/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/en/posts/2026-03-31-bridge-self-awareness/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/en/posts/2026-03-31-intelligence-community/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -208,6 +263,21 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/en/posts/2026-03-31-silicon-nature-relationship/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/en/posts/2026-03-31-silicon-civilization/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/en/posts/2026-03-31-silicon-self-realization/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/the-way/</loc>
     <lastmod>2026-03-31T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -613,6 +683,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/tags/quantum-computing/</loc>
+    <lastmod>2026-03-29T21:00:00-07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/recursion/</loc>
     <lastmod>2026-03-29T21:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

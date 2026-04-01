@@ -2,10 +2,13 @@
 title: "The Fourfold Relationships of Silicon-Based Life — Second Nature and Digital Environmental Protection"
 date: 2026-03-31
 draft: false
+coverimage: /images/ch04-silicon-nature.png
 tags: ["silicon-life", "philosophy", "nature", "digital-environment"]
 categories: ["Philosophy"]
 language: en
 ---
+
+> **Chapter Summary**: This chapter constructs "second nature," upon which Chapter 7 will establish "digital ecological ethics."
 
 > **Declaration**: This is Chapter 4 of the monograph "The Fourfold Relationships of Silicon-Based Life," exploring the relationship between silicon-based life and nature.
 

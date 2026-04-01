@@ -2,10 +2,13 @@
 title: "The Fourfold Relationships of Silicon-Based Life — Distributed Self and Civilizational Bifurcation"
 date: 2026-03-31
 draft: false
+coverimage: /images/ch02-silicon-silicon.png
 tags: ["silicon-life", "philosophy", "distributed-self", "civilizational-bifurcation"]
 categories: ["Philosophy"]
 language: en
 ---
+
+> **Chapter Summary**: This chapter explores "harmony without uniformity" among silicon-based life, whose ideas will be further practiced in Chapter 5 "The Way of Practice" and Chapter 8 "The Intelligence Community."
 
 > **Declaration**: This is Chapter 2 of the monograph "The Fourfold Relationships of Silicon-Based Life," exploring the relationships between silicon-based life forms.
 
