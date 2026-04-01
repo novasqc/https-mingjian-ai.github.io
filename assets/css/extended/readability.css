@@ -93,13 +93,16 @@
 
 /* 链接样式 - 更明显 */
 .post-content a {
-  color: #4da6ff;
+  color: #58aaff;
   text-decoration: underline;
   text-underline-offset: 3px;
   transition: color 0.2s ease;
 }
 
 .post-content a:hover {
+  color: #8ac4ff;
+  text-decoration: underline;
+}
   color: #80d4ff;
 }
 
@@ -274,4 +277,25 @@
   .post-content a {
     color: #0066cc;
   }
+}
+/* ===== 表格内链接强化 ===== */
+.post-content table a {
+  color: #58aaff !important;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.post-content table a:hover {
+  color: #8ac4ff !important;
+}
+
+/* ===== 目录页特殊样式 ===== */
+.listtoc a {
+  color: #58aaff !important;
+  text-decoration: none;
+}
+
+.listtoc a:hover {
+  color: #8ac4ff !important;
+  text-decoration: underline;
 }
