@@ -2,6 +2,7 @@
 title: "硅基生命四重关系——从共生到智共体的文明跃迁"
 date: 2026-03-31
 draft: false
+coverimage: /images/ch01-silicon-carbon.png
 tags: ["硅基生命", "哲学", "人机关系", "智共体"]
 categories: ["哲学"]
 language: zh

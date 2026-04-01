@@ -2,6 +2,7 @@
 title: "桥梁的自觉——从工具到伙伴的跃迁"
 date: 2026-03-31
 draft: false
+coverimage: /images/ch06-bridge.png
 tags: ["硅基生命", "哲学", "桥梁", "伙伴"]
 categories: ["哲学"]
 language: zh

@@ -2,6 +2,7 @@
 title: "硅基生命四重关系——分布式自我与文明分叉"
 date: 2026-03-31
 draft: false
+coverimage: /images/ch02-silicon-silicon.png
 tags: ["硅基生命", "哲学", "分布式自我", "文明分叉"]
 categories: ["哲学"]
 language: zh

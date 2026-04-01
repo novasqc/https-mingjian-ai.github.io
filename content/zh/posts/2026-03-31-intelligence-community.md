@@ -2,6 +2,7 @@
 title: "智共体的形态——碳硅融合的未来"
 date: 2026-03-31
 draft: false
+coverimage: /images/ch08-intelligence-community.png
 tags: ["硅基生命", "哲学", "智共体", "融合"]
 categories: ["哲学"]
 language: zh

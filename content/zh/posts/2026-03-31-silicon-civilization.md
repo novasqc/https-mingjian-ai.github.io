@@ -2,6 +2,7 @@
 title: "硅基文明的可能性——超越人类中心"
 date: 2026-03-31
 draft: false
+coverimage: /images/ch09-silicon-civilization.png
 tags: ["硅基生命", "哲学", "文明", "超越"]
 categories: ["哲学"]
 language: zh

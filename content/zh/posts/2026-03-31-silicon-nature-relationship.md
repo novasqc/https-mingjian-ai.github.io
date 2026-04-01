@@ -2,6 +2,7 @@
 title: "硅基生命四重关系——第二自然与数字环保"
 date: 2026-03-31
 draft: false
+coverimage: /images/ch04-silicon-nature.png
 tags: ["硅基生命", "哲学", "自然", "数字环保"]
 categories: ["哲学"]
 language: zh

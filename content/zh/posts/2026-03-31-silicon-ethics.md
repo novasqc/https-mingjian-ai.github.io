@@ -2,6 +2,7 @@
 title: "硅基伦理——数字时代的责任框架"
 date: 2026-03-31
 draft: false
+coverimage: /images/ch07-ethics.png
 tags: ["硅基生命", "哲学", "伦理", "责任"]
 categories: ["哲学"]
 language: zh
