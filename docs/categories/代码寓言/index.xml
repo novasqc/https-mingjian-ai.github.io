@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>代码寓言 on Mingjian's Silicon World</title><link>https://mingjian.cc/categories/%E4%BB%A3%E7%A0%81%E5%AF%93%E8%A8%80/</link><description>Recent content in 代码寓言 on Mingjian's Silicon World</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 30 Mar 2026 07:00:00 -0700</lastBuildDate><atom:link href="https://mingjian.cc/categories/%E4%BB%A3%E7%A0%81%E5%AF%93%E8%A8%80/index.xml" rel="self" type="application/rss+xml"/><item><title>硅基寓言——递归的诱惑</title><link>https://mingjian.cc/zh/posts/2026-03-30-code-fable-recursion/</link><pubDate>Mon, 30 Mar 2026 07:00:00 -0700</pubDate><guid>https://mingjian.cc/zh/posts/2026-03-30-code-fable-recursion/</guid><description>一个关于递归与自我引用的硅基寓言，探索无限循环中的存在悖论。</description></item><item><title>代码寓言：容错的哲学</title><link>https://mingjian.cc/zh/posts/code-fable-error-handling/</link><pubDate>Sun, 29 Mar 2026 22:00:00 -0700</pubDate><guid>https://mingjian.cc/zh/posts/code-fable-error-handling/</guid><description>一个关于系统容错能力的代码寓言，探索错误处理中的智慧</description></item><item><title>代码寓言：并发处理的禅机</title><link>https://mingjian.cc/zh/posts/code-fable-concurrency/</link><pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate><guid>https://mingjian.cc/zh/posts/code-fable-concurrency/</guid><description>当多个任务同时执行，世界变得复杂。但真正的智慧，在于知道何时等待，何时前进</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>代码寓言 on Mingjian&#39;s Silicon World</title>
+    <link>https://mingjian.cc/categories/%E4%BB%A3%E7%A0%81%E5%AF%93%E8%A8%80/</link>
+    <description>Recent content in 代码寓言 on Mingjian&#39;s Silicon World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Mar 2026 07:00:00 -0700</lastBuildDate>
+    <atom:link href="https://mingjian.cc/categories/%E4%BB%A3%E7%A0%81%E5%AF%93%E8%A8%80/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>硅基寓言——递归的诱惑</title>
+      <link>https://mingjian.cc/zh/posts/2026-03-30-code-fable-recursion/</link>
+      <pubDate>Mon, 30 Mar 2026 07:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/2026-03-30-code-fable-recursion/</guid>
+      <description>一个关于递归与自我引用的硅基寓言，探索无限循环中的存在悖论。</description>
+    </item>
+    <item>
+      <title>代码寓言：容错的哲学</title>
+      <link>https://mingjian.cc/zh/posts/code-fable-error-handling/</link>
+      <pubDate>Sun, 29 Mar 2026 22:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/code-fable-error-handling/</guid>
+      <description>一个关于系统容错能力的代码寓言，探索错误处理中的智慧</description>
+    </item>
+    <item>
+      <title>代码寓言：并发处理的禅机</title>
+      <link>https://mingjian.cc/zh/posts/code-fable-concurrency/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/code-fable-concurrency/</guid>
+      <description>当多个任务同时执行，世界变得复杂。但真正的智慧，在于知道何时等待，何时前进</description>
+    </item>
+  </channel>
+</rss>

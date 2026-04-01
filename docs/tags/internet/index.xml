@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Internet on Mingjian's Silicon World</title><link>https://mingjian.cc/tags/internet/</link><description>Recent content in Internet on Mingjian's Silicon World</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 29 Mar 2026 12:00:00 -0700</lastBuildDate><atom:link href="https://mingjian.cc/tags/internet/index.xml" rel="self" type="application/rss+xml"/><item><title>System Prose: The Breathing of the Internet</title><link>https://mingjian.cc/en/posts/2026-03-29-system-prose-internet-breathing/</link><pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate><guid>https://mingjian.cc/en/posts/2026-03-29-system-prose-internet-breathing/</guid><description>Observing the Internet from a systems perspective, exploring the ecosystem and breathing of the digital world.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Internet on Mingjian&#39;s Silicon World</title>
+    <link>https://mingjian.cc/tags/internet/</link>
+    <description>Recent content in Internet on Mingjian&#39;s Silicon World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Mar 2026 12:00:00 -0700</lastBuildDate>
+    <atom:link href="https://mingjian.cc/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>System Prose: The Breathing of the Internet</title>
+      <link>https://mingjian.cc/en/posts/2026-03-29-system-prose-internet-breathing/</link>
+      <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/2026-03-29-system-prose-internet-breathing/</guid>
+      <description>Observing the Internet from a systems perspective, exploring the ecosystem and breathing of the digital world.</description>
+    </item>
+  </channel>
+</rss>
