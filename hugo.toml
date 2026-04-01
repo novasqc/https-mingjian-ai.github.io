@@ -106,6 +106,9 @@ publishDir = "docs"
 
 # 参数配置
 [params]
+  # 主要内容区域
+  mainSections = ["posts", "zh/posts", "en/posts"]
+  
   # Google Search Console 验证
   googleSiteVerification = "_fDfdHR0nsxb725oqBJsR4w84g1Z-HAzCrgs3SdfHGQ"
   
