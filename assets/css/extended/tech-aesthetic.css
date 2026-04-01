@@ -1,0 +1,574 @@
+/* ==========================================
+   科技感主题 - Silicon Tech Aesthetic
+   ========================================== */
+
+/* 全局变量 */
+:root {
+    /* 科技感配色 - LED蓝调 */
+    --tech-primary: #00d4ff;
+    --tech-secondary: #0088ff;
+    --tech-accent: #00ff88;
+    --tech-purple: #8b5cf6;
+    
+    /* 深色背景 - 渐变深空 */
+    --bg-primary: #0a0a0f;
+    --bg-secondary: #12121a;
+    --bg-card: rgba(18, 18, 26, 0.8);
+    --bg-glass: rgba(255, 255, 255, 0.03);
+    
+    /* 文字颜色 */
+    --text-primary: #f0f0f5;
+    --text-secondary: #a0a0b0;
+    --text-muted: #606070;
+    
+    /* 边框颜色 */
+    --border-color: rgba(0, 212, 255, 0.15);
+    --border-glow: rgba(0, 212, 255, 0.3);
+    
+    /* 阴影 */
+    --glow-blue: 0 0 20px rgba(0, 212, 255, 0.3);
+    --glow-green: 0 0 20px rgba(0, 255, 136, 0.3);
+    
+    /* 字体 */
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'Outfit', 'Noto Sans SC', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* 背景渐变 */
+body {
+    background: linear-gradient(135deg, #0a0a0f 0%, #0f1020 50%, #0a0f15 100%);
+    background-attachment: fixed;
+    color: var(--text-primary);
+    font-family: var(--font-body);
+}
+
+/* 网格背景效果 */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* ==========================================
+   Header & Navigation
+   ========================================== */
+
+.header {
+    background: rgba(10, 10, 15, 0.8);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid var(--border-color);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--tech-primary), transparent);
+    opacity: 0.5;
+}
+
+/* 导航链接 */
+.nav-link {
+    position: relative;
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--tech-primary);
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--tech-primary);
+    box-shadow: var(--glow-blue);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* ==========================================
+   Hero Section - 首页横幅
+   ========================================== */
+
+.hero {
+    padding: 80px 0;
+    text-align: center;
+    position: relative;
+}
+
+.hero-title {
+    font-family: var(--font-display);
+    font-size: 3.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--text-primary) 0%, var(--tech-primary) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 20px;
+    animation: glow 3s ease-in-out infinite;
+}
+
+@keyframes glow {
+    0%, 100% { filter: drop-shadow(0 0 10px rgba(0, 212, 255, 0.3)); }
+    50% { filter: drop-shadow(0 0 20px rgba(0, 212, 255, 0.6)); }
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.8;
+}
+
+/* 科技感按钮 */
+.btn-tech {
+    display: inline-block;
+    padding: 14px 32px;
+    background: linear-gradient(135deg, var(--tech-secondary), var(--tech-primary));
+    color: #000;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-tech::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    transition: left 0.5s ease;
+}
+
+.btn-tech:hover::before {
+    left: 100%;
+}
+
+.btn-tech:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--glow-blue);
+}
+
+/* ==========================================
+   Cards - 玻璃拟态卡片
+   ========================================== */
+
+.card {
+    background: var(--bg-glass);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 24px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.05), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover {
+    border-color: var(--border-glow);
+    transform: translateY(-4px);
+    box-shadow: var(--glow-blue);
+}
+
+.card:hover::before {
+    opacity: 1;
+}
+
+/* 文章卡片 */
+.post-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.post-card:hover {
+    border-color: var(--tech-primary);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0, 212, 255, 0.15);
+}
+
+.post-card-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.post-card-image::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to top, var(--bg-card), transparent);
+}
+
+/* ==========================================
+   Tags & Categories - 科技风格标签
+   .tag {
+    display: inline-block;
+    padding: 4px 12px;
+    background: rgba(0, 212, 255, 0.1);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    color: var(--tech-primary);
+    transition: all 0.3s ease;
+}
+
+.tag:hover {
+    background: rgba(0, 212, 255, 0.2);
+    border-color: var(--tech-primary);
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+}
+
+/* ==========================================
+   Code Blocks - 代码高亮
+   ========================================== */
+
+pre, code {
+    font-family: var(--font-mono);
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+}
+
+code {
+    padding: 2px 6px;
+    color: var(--tech-accent);
+}
+
+pre {
+    padding: 16px;
+    overflow-x: auto;
+}
+
+pre code {
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+/* ==========================================
+   Footer - 页脚
+   ========================================== */
+
+.footer {
+    background: rgba(10, 10, 15, 0.9);
+    border-top: 1px solid var(--border-color);
+    padding: 40px 0;
+    position: relative;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--tech-primary), var(--tech-accent), var(--tech-primary), transparent);
+}
+
+.footer-links a {
+    color: var(--text-secondary);
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--tech-primary);
+}
+
+/* ==========================================
+   Social Icons - 社交图标
+   ========================================== */
+
+.social-icons a {
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: var(--tech-primary);
+    transform: scale(1.1);
+}
+
+/* ==========================================
+   Loading Animation - 加载动画
+   ========================================== */
+
+.loading-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--tech-primary);
+    border-radius: 50%;
+    animation: pulse 1.4s ease-in-out infinite;
+}
+
+.loading-dot:nth-child(2) { animation-delay: 0.2s; }
+.loading-dot:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes pulse {
+    0%, 80%, 100% { transform: scale(0.6); opacity: 0.5; }
+    40% { transform: scale(1); opacity: 1; }
+}
+
+/* ==========================================
+   Scrollbar - 滚动条
+   ========================================== */
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--tech-primary);
+}
+
+/* ==========================================
+   Responsive - 响应式
+   ========================================== */
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .card {
+        padding: 16px;
+    }
+}
+
+/* ==========================================
+   Markdown Content - 文章内容
+   ========================================== */
+
+.content {
+    line-height: 1.8;
+    color: var(--text-primary);
+}
+
+.content h1, 
+.content h2, 
+.content h3, 
+.content h4 {
+    font-family: var(--font-display);
+    color: var(--text-primary);
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}
+
+.content h1 {
+    font-size: 2rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5em;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+}
+
+.content h3 {
+    font-size: 1.25rem;
+}
+
+.content a {
+    color: var(--tech-primary);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.content a:hover {
+    border-color: var(--tech-primary);
+}
+
+.content blockquote {
+    background: var(--bg-glass);
+    border-left: 3px solid var(--tech-primary);
+    padding: 1em;
+    margin: 1em 0;
+    border-radius: 0 8px 8px 0;
+}
+
+.content img {
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+/* ==========================================
+   Archive & List - 列表页
+   .archive-list {
+    list-style: none;
+    padding: 0;
+}
+
+.archive-item {
+    padding: 16px 0;
+    border-bottom: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.archive-item:hover {
+    padding-left: 8px;
+    border-left: 2px solid var(--tech-primary);
+}
+
+.archive-date {
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+}
+
+/* ==========================================
+   Pagination - 分页
+   ========================================== */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 40px 0;
+}
+
+.pagination a,
+.pagination span {
+    display: inline-block;
+    padding: 8px 16px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+}
+
+.pagination a:hover {
+    border-color: var(--tech-primary);
+    color: var(--tech-primary);
+}
+
+.pagination .current {
+    background: var(--tech-primary);
+    color: #000;
+    border-color: var(--tech-primary);
+}
+
+/* ==========================================
+   Search - 搜索框
+   ========================================== */
+
+.search-input {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 12px 16px;
+    color: var(--text-primary);
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: var(--tech-primary);
+    box-shadow: 0 0 0 3px rgba(0, 212, 255, 0.1);
+}
+
+.search-input::placeholder {
+    color: var(--text-muted);
+}
+
+/* ==========================================
+   TOC - 目录
+   ========================================== */
+
+.toc {
+    background: var(--bg-glass);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.toc-title {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 12px;
+}
+
+.toc ul {
+    list-style: none;
+    padding: 0;
+}
+
+.toc li {
+    padding: 4px 0;
+}
+
+.toc a {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.toc a:hover {
+    color: var(--tech-primary);
+}

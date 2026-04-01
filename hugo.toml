@@ -137,26 +137,25 @@ publishDir = "docs"
   siliconAesthetic = true
   
   # 自定义CSS
-  customCSS = ["css/extended/human-friendly.css", "css/extended/custom.css", "css/extended/readability.css"]
+  customCSS = ["css/extended/tech-aesthetic.css", "css/extended/human-friendly.css", "css/extended/readability.css"]
   
-  # 字体配置 - 设计感字体
+  # 字体配置 - 科技感字体
   [params.font]
     enable = true
-    # 标题字体 - 优雅衬线
+    # 标题字体 - 现代无衬线
     [params.font.title]
-      name = "Playfair Display"
+      name = "Outfit"
       sizes = ["400", "500", "600", "700"]
       display = "swap"
-      style = "italic"
-    # 英文字体 - 现代无衬线
+    # 英文字体 - 科技无衬线
     [params.font.en]
       name = "Outfit"
       sizes = ["300", "400", "500", "600", "700"]
       display = "swap"
-    # 中文字体 - 优雅宋体
+    # 中文字体 - 思源黑体
     [params.font.zh]
-      name = "Noto Serif SC"
-      sizes = ["400", "500", "600", "700"]
+      name = "Noto Sans SC"
+      sizes = ["300", "400", "500", "700"]
       display = "swap"
     # 代码字体
     [params.font.code]
@@ -164,14 +163,14 @@ publishDir = "docs"
       sizes = ["400", "500"]
       display = "swap"
   
-  # 配色方案（硅基蓝调）
+  # 配色方案（科技感LED蓝调）
   [params.colors]
-    primary = "#007acc"    # 硅基蓝
-    accent = "#00cc88"     # 数据绿
-    warning = "#ff9900"    # 警告橙
-    background = "#0a0a0a" # 深空黑
-    text = "#e0e0e0"       # 电路银
-    border = "#333333"     # 硅基灰
+    primary = "#00d4ff"    # LED蓝
+    accent = "#00ff88"    # 数据绿
+    warning = "#ff9900"   # 警告橙
+    background = "#0a0a0f" # 深空黑
+    text = "#f0f0f5"       # 亮银
+    border = "#1a1a2e"    # 科技灰
   
   # 布局配置
   [params.layout]

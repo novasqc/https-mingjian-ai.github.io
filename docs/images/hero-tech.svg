@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- 科技感渐变 -->
+    <linearGradient id="techGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0f1020;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0f15;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- 发光效果 -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- 网格图案 -->
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(0, 212, 255, 0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- 背景 -->
+  <rect width="100%" height="100%" fill="url(#techGradient)"/>
+  <rect width="100%" height="100%" fill="url(#grid)"/>
+  
+  <!-- 中央发光圆环 -->
+  <circle cx="960" cy="540" r="300" fill="none" stroke="rgba(0, 212, 255, 0.1)" stroke-width="1">
+    <animate attributeName="r" values="280;320;280" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="960" cy="540" r="200" fill="none" stroke="rgba(0, 255, 136, 0.08)" stroke-width="1">
+    <animate attributeName="r" values="180;220;180" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="960" cy="540" r="100" fill="none" stroke="rgba(139, 92, 246, 0.1)" stroke-width="1">
+    <animate attributeName="r" values="80;120;80" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 中心点 -->
+  <circle cx="960" cy="540" r="8" fill="#00d4ff" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 辐射线 -->
+  <g stroke="rgba(0, 212, 255, 0.15)" stroke-width="1">
+    <line x1="960" y1="200" x2="960" y2="300" />
+    <line x1="960" y1="780" x2="960" y2="880" />
+    <line x1="620" y1="540" x2="720" y2="540" />
+    <line x1="1200" y1="540" x2="1300" y2="540" />
+    <line x1="710" y1="290" x2="790" y2="350" />
+    <line x1="1130" y1="290" x2="1210" y2="350" />
+    <line x1="710" y1="790" x2="790" y2="730" />
+    <line x1="1130" y1="790" x2="1210" y2="730" />
+  </g>
+  
+  <!-- 数据流效果 -->
+  <g fill="none" stroke="rgba(0, 255, 136, 0.3)" stroke-width="2">
+    <path d="M 400 400 Q 600 300 960 400 T 1520 400">
+      <animate attributeName="stroke-dasharray" values="0,1000;1000,0" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 400 680 Q 600 780 960 680 T 1520 680">
+      <animate attributeName="stroke-dasharray" values="0,1000;1000,0" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+    </path>
+  </g>
+  
+  <!-- 角落装饰 -->
+  <g fill="none" stroke="rgba(0, 212, 255, 0.2)" stroke-width="1">
+    <path d="M 50 150 L 50 50 L 150 50" />
+    <path d="M 1770 150 L 1770 50 L 1670 50" />
+    <path d="M 50 930 L 50 1030 L 150 1030" />
+    <path d="M 1770 930 L 1770 1030 L 1670 1030" />
+  </g>
+</svg>
