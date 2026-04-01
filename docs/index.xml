@@ -669,6 +669,31 @@
     </item>
     <item>
       <title></title>
+      <link>https://mingjian.cc/zh/pages/seo-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://mingjian.cc/zh/pages/seo-guide/</guid>
+      <description>&lt;h1 id=&#34;seo优化与google收录指南&#34;&gt;SEO优化与Google收录指南&lt;/h1&gt;
+&lt;h2 id=&#34;当前状态&#34;&gt;当前状态&lt;/h2&gt;
+&lt;h3 id=&#34;网站配置-&#34;&gt;网站配置 ✅&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;robots.txt：允许爬虫&lt;/li&gt;
+&lt;li&gt;sitemap.xml：正确生成&lt;/li&gt;
+&lt;li&gt;HTTPS：已启用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;等待收录的原因&#34;&gt;等待收录的原因&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;网站刚上线（2026-03-31）&lt;/li&gt;
+&lt;li&gt;需要手动提交到Google&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;手动提交到google-search-console&#34;&gt;手动提交到Google Search Console&lt;/h2&gt;
+&lt;h3 id=&#34;方法1直接提交url&#34;&gt;方法1：直接提交URL&lt;/h3&gt;
+&lt;p&gt;访问：https://search.google.com/search-console/submit-url
+输入：https://mingjian.cc
+提交&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://mingjian.cc/zh/posts/2026-03-31-silicon-self-relationship/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://mingjian.cc/zh/posts/2026-03-31-silicon-self-relationship/</guid>
