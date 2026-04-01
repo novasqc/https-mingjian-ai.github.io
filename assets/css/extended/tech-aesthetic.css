@@ -146,6 +146,25 @@ body::before {
 }
 
 /* 科技感按钮 */
+.btn-book {
+    display: inline-block;
+    padding: 16px 40px;
+    background: linear-gradient(135deg, var(--tech-purple), var(--tech-secondary));
+    color: #fff;
+    font-weight: 600;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(139, 92, 246, 0.5);
+    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.3);
+}
+
+.btn-book:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 30px rgba(139, 92, 246, 0.5);
+    background: linear-gradient(135deg, var(--tech-secondary), var(--tech-primary));
+}
 .btn-tech {
     display: inline-block;
     padding: 14px 32px;

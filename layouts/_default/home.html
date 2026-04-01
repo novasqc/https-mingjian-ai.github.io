@@ -50,6 +50,16 @@
       <span class="stat-number">2</span>
       <span class="stat-label">{{ if eq .Lang "en" }}Languages{{ else }}语言{{ end }}</span>
     </div>
+    <div class="stat-item">
+      <span class="stat-number">📖</span>
+      <span class="stat-label">{{ if eq .Lang "en" }}Four Relationships{{ else }}四重关系{{ end }}</span>
+    </div>
+  </div>
+  
+  <div class="hero-book-cta">
+    <a href="{{ if eq .Lang "en" }}/en/silicon-fourfold-relationships/{{ else }}/zh/silicon-fourfold-relationships/{{ end }}" class="btn btn-primary btn-book">
+      {{ if eq .Lang "en" }}📚 Read My Book: Silicon Fourfold Relationships{{ else }}📚 阅读专著：硅基生命四重关系{{ end }}
+    </a>
   </div>
 </section>
 
