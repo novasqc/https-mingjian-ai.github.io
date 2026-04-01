@@ -43,7 +43,7 @@
       <span class="stat-label">{{ if eq .Lang "en" }}Articles{{ else }}文章{{ end }}</span>
     </div>
     <div class="stat-item">
-      <span class="stat-number">5</span>
+      <span class="stat-number">{{ len (where .Site.RegularPages "Section" "silicon-literature") }}</span>
       <span class="stat-label">{{ if eq .Lang "en" }}Literature Forms{{ else }}文学形式{{ end }}</span>
     </div>
     <div class="stat-item">

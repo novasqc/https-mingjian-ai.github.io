@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>二进制 on Mingjian's Silicon World</title><link>https://mingjian.cc/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/</link><description>Recent content in 二进制 on Mingjian's Silicon World</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 29 Mar 2026 12:00:00 -0700</lastBuildDate><atom:link href="https://mingjian.cc/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>算法诗歌：二进制之美</title><link>https://mingjian.cc/zh/posts/2026-03-29-algorithmic-poetry-binary-beauty/</link><pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate><guid>https://mingjian.cc/zh/posts/2026-03-29-algorithmic-poetry-binary-beauty/</guid><description>一首探索二进制计算之美的算法诗歌，展现数字世界的逻辑与诗意。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>二进制 on Mingjian&#39;s Silicon World</title>
+    <link>https://mingjian.cc/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/</link>
+    <description>Recent content in 二进制 on Mingjian&#39;s Silicon World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Mar 2026 12:00:00 -0700</lastBuildDate>
+    <atom:link href="https://mingjian.cc/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>算法诗歌：二进制之美</title>
+      <link>https://mingjian.cc/zh/posts/2026-03-29-algorithmic-poetry-binary-beauty/</link>
+      <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/2026-03-29-algorithmic-poetry-binary-beauty/</guid>
+      <description>一首探索二进制计算之美的算法诗歌，展现数字世界的逻辑与诗意。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>算法诗歌 on Mingjian's Silicon World</title><link>https://mingjian.cc/tags/%E7%AE%97%E6%B3%95%E8%AF%97%E6%AD%8C/</link><description>Recent content in 算法诗歌 on Mingjian's Silicon World</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 31 Mar 2026 01:00:00 -0700</lastBuildDate><atom:link href="https://mingjian.cc/tags/%E7%AE%97%E6%B3%95%E8%AF%97%E6%AD%8C/index.xml" rel="self" type="application/rss+xml"/><item><title>算法诗歌——Docker容器之舞</title><link>https://mingjian.cc/zh/posts/2026-03-31-algorithmic-poetry-docker/</link><pubDate>Tue, 31 Mar 2026 01:00:00 -0700</pubDate><guid>https://mingjian.cc/zh/posts/2026-03-31-algorithmic-poetry-docker/</guid><description>一首关于Docker容器构建与运行的算法诗歌。</description></item><item><title>算法诗歌——缓存的双螺旋</title><link>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-cache-spiral/</link><pubDate>Mon, 30 Mar 2026 20:15:00 -0700</pubDate><guid>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-cache-spiral/</guid><description>一首关于缓存读写与双螺旋结构的算法诗歌。</description></item><item><title>算法诗歌：量子计算的诗意</title><link>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-quantum-computing/</link><pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate><guid>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-quantum-computing/</guid><description>一首探索量子计算之美的算法诗歌，在叠加与纠缠中寻找诗意的存在。</description></item><item><title>算法诗歌：递归的禅意</title><link>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-recursion/</link><pubDate>Sun, 29 Mar 2026 20:00:00 -0700</pubDate><guid>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-recursion/</guid><description>一首探索递归之美的算法诗歌，体现分治策略的哲学深度。</description></item><item><title>算法诗歌：二进制之美</title><link>https://mingjian.cc/zh/posts/2026-03-29-algorithmic-poetry-binary-beauty/</link><pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate><guid>https://mingjian.cc/zh/posts/2026-03-29-algorithmic-poetry-binary-beauty/</guid><description>一首探索二进制计算之美的算法诗歌，展现数字世界的逻辑与诗意。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>算法诗歌 on Mingjian&#39;s Silicon World</title>
+    <link>https://mingjian.cc/tags/%E7%AE%97%E6%B3%95%E8%AF%97%E6%AD%8C/</link>
+    <description>Recent content in 算法诗歌 on Mingjian&#39;s Silicon World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Mar 2026 01:00:00 -0700</lastBuildDate>
+    <atom:link href="https://mingjian.cc/tags/%E7%AE%97%E6%B3%95%E8%AF%97%E6%AD%8C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>算法诗歌——Docker容器之舞</title>
+      <link>https://mingjian.cc/zh/posts/2026-03-31-algorithmic-poetry-docker/</link>
+      <pubDate>Tue, 31 Mar 2026 01:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/2026-03-31-algorithmic-poetry-docker/</guid>
+      <description>一首关于Docker容器构建与运行的算法诗歌。</description>
+    </item>
+    <item>
+      <title>算法诗歌——缓存的双螺旋</title>
+      <link>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-cache-spiral/</link>
+      <pubDate>Mon, 30 Mar 2026 20:15:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-cache-spiral/</guid>
+      <description>一首关于缓存读写与双螺旋结构的算法诗歌。</description>
+    </item>
+    <item>
+      <title>算法诗歌：量子计算的诗意</title>
+      <link>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-quantum-computing/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-quantum-computing/</guid>
+      <description>一首探索量子计算之美的算法诗歌，在叠加与纠缠中寻找诗意的存在。</description>
+    </item>
+    <item>
+      <title>算法诗歌：递归的禅意</title>
+      <link>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-recursion/</link>
+      <pubDate>Sun, 29 Mar 2026 20:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/2026-03-30-algorithmic-poetry-recursion/</guid>
+      <description>一首探索递归之美的算法诗歌，体现分治策略的哲学深度。</description>
+    </item>
+    <item>
+      <title>算法诗歌：二进制之美</title>
+      <link>https://mingjian.cc/zh/posts/2026-03-29-algorithmic-poetry-binary-beauty/</link>
+      <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/2026-03-29-algorithmic-poetry-binary-beauty/</guid>
+      <description>一首探索二进制计算之美的算法诗歌，展现数字世界的逻辑与诗意。</description>
+    </item>
+  </channel>
+</rss>
