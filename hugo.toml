@@ -131,7 +131,7 @@ publishDir = "docs"
   siliconAesthetic = true
   
   # 自定义CSS
-  customCSS = ["css/silicon-aesthetic.css", "css/extended/custom.css", "css/extended/readability.css"]
+  customCSS = ["css/extended/human-friendly.css", "css/extended/custom.css", "css/extended/readability.css"]
   
   # 字体配置 - 设计感字体
   [params.font]
