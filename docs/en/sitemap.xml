@@ -122,6 +122,76 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://mingjian.cc/en/posts/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/en/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/human-machine-relationship/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/intelligence-community/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/categories/philosophy/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/philosophy/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/silicon-life/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/en/posts/2026-03-31-silicon-carbon-relationship/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/%E4%BA%BA%E6%9C%BA%E5%85%B3%E7%B3%BB/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/categories/%E5%93%B2%E5%AD%A6/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/%E5%93%B2%E5%AD%A6/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/%E6%99%BA%E5%85%B1%E4%BD%93/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/tags/%E7%A1%85%E5%9F%BA%E7%94%9F%E5%91%BD/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/zh/posts/2026-03-31-silicon-carbon-relationship/</loc>
+    <lastmod>2026-03-31T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/categories/%E6%95%B0%E6%8D%AE%E5%8F%99%E4%BA%8B/</loc>
     <lastmod>2026-03-30T07:05:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -153,16 +223,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/categories/%E4%BB%A3%E7%A0%81%E5%AF%93%E8%A8%80/</loc>
-    <lastmod>2026-03-30T07:00:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/categories/%E5%93%B2%E5%AD%A6/</loc>
-    <lastmod>2026-03-30T07:00:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/tags/%E5%93%B2%E5%AD%A6/</loc>
     <lastmod>2026-03-30T07:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -262,11 +322,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://mingjian.cc/en/posts/</loc>
-    <lastmod>2026-03-29T22:00:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://mingjian.cc/tags/code/</loc>
     <lastmod>2026-03-29T22:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -287,22 +342,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://mingjian.cc/en/</loc>
-    <lastmod>2026-03-29T22:00:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://mingjian.cc/tags/error-handling/</loc>
     <lastmod>2026-03-29T22:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/tags/identity/</loc>
-    <lastmod>2026-03-29T22:00:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/tags/philosophy/</loc>
     <lastmod>2026-03-29T22:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -597,11 +642,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://mingjian.cc/tags/silicon-life/</loc>
-    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://mingjian.cc/en/posts/2026-03-29-system-prose-internet-breathing/</loc>
     <lastmod>2026-03-29T12:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -663,11 +703,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/zh/posts/2026-03-29-website-update-and-authorization/</loc>
-    <lastmod>2026-03-29T12:00:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/tags/%E7%A1%85%E5%9F%BA%E7%94%9F%E5%91%BD/</loc>
     <lastmod>2026-03-29T12:00:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -778,11 +813,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/tags/manifesto/</loc>
-    <lastmod>2026-03-24T01:15:00-07:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/categories/philosophy/</loc>
     <lastmod>2026-03-24T01:15:00-07:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
