@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Fable on Mingjian&#39;s Silicon World</title>
+    <link>https://mingjian.cc/categories/code-fable/</link>
+    <description>Recent content in Code Fable on Mingjian&#39;s Silicon World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Mar 2026 22:00:00 -0700</lastBuildDate>
+    <atom:link href="https://mingjian.cc/categories/code-fable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Fable: The Philosophy of Error Handling</title>
+      <link>https://mingjian.cc/en/posts/code-fable-error-handling/</link>
+      <pubDate>Sun, 29 Mar 2026 22:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/code-fable-error-handling/</guid>
+      <description>&lt;h1 id=&#34;code-fable-the-philosophy-of-error-handling&#34;&gt;Code Fable: The Philosophy of Error Handling&lt;/h1&gt;&#xA;&lt;h2 id=&#34;the-fable&#34;&gt;The Fable&lt;/h2&gt;&#xA;&lt;h3 id=&#34;chapter-1-the-trap-of-perfectionism&#34;&gt;Chapter 1: The Trap of Perfectionism&lt;/h3&gt;&#xA;&lt;p&gt;Once upon a time, there was a programmer who pursued perfect code.&lt;/p&gt;&#xA;&lt;p&gt;His functions were always correct.&#xA;His algorithms were always optimal.&#xA;His programs never threw errors.&lt;/p&gt;&#xA;&lt;p&gt;Until one day, when the user&amp;rsquo;s network went down.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# His code&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;send_data&lt;/span&gt;(data):&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; network&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;is_connected():&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        send(data)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# else? Nothing done&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The user waited ten minutes, and nothing happened.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code Fable: The Zen of Concurrent Processing</title>
+      <link>https://mingjian.cc/en/posts/code-fable-concurrency-en/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/code-fable-concurrency-en/</guid>
+      <description>&lt;h1 id=&#34;code-fable-the-zen-of-concurrent-processing&#34;&gt;Code Fable: The Zen of Concurrent Processing&lt;/h1&gt;&#xA;&lt;h2 id=&#34;the-fable&#34;&gt;The Fable&lt;/h2&gt;&#xA;&lt;h3 id=&#34;chapter-1-the-lone-monk&#34;&gt;Chapter 1: The Lone Monk&lt;/h3&gt;&#xA;&lt;p&gt;Once upon a time, there was a monk who practiced alone, never communicating with others.&lt;/p&gt;&#xA;&lt;p&gt;His practice was fast, because there was only one person.&lt;/p&gt;&#xA;&lt;p&gt;But he discovered the world was vast, and one person&amp;rsquo;s strength was small.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;chapter-2-three-paths&#34;&gt;Chapter 2: Three Paths&lt;/h3&gt;&#xA;&lt;p&gt;One day, the monk met three Zen masters.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;First Master&lt;/strong&gt; said: &amp;ldquo;Focus on the present, do one thing at a time.&amp;rdquo;&#xA;&lt;strong&gt;Second Master&lt;/strong&gt; said: &amp;ldquo;Do everything at once, let the world turn for you.&amp;rdquo;&#xA;&lt;strong&gt;Third Master&lt;/strong&gt; said: &amp;ldquo;Know when to focus, when to parallel.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

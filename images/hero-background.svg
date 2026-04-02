@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="400" viewBox="0 0 1920 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a"/>
+      <stop offset="50%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="glow1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007acc;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#00cc88;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="glow2" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00cc88;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#007acc;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="400" fill="url(#bg)"/>
+  
+  <!-- Grid pattern -->
+  <g stroke="#333333" stroke-width="0.5" opacity="0.5">
+    <line x1="0" y1="100" x2="1920" y2="100"/>
+    <line x1="0" y1="200" x2="1920" y2="200"/>
+    <line x1="0" y1="300" x2="1920" y2="300"/>
+    <line x1="480" y1="0" x2="480" y2="400"/>
+    <line x1="960" y1="0" x2="960" y2="400"/>
+    <line x1="1440" y1="0" x2="1440" y2="400"/>
+  </g>
+  
+  <!-- Glowing orbs -->
+  <ellipse cx="300" cy="200" rx="200" ry="150" fill="url(#glow1)" filter="url(#blur)"/>
+  <ellipse cx="1600" cy="200" rx="250" ry="180" fill="url(#glow2)" filter="url(#blur)"/>
+  
+  <!-- Circuit lines -->
+  <g stroke="#007acc" stroke-width="2" fill="none" opacity="0.6">
+    <path d="M100,300 Q300,250 400,300 T600,200 T800,250"/>
+    <path d="M1500,100 Q1600,150 1700,100 T1900,150"/>
+    <path d="M200,50 L300,100 L400,50 L500,100"/>
+  </g>
+  
+  <!-- Data nodes -->
+  <g fill="#00cc88">
+    <circle cx="400" cy="300" r="4">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="250" r="3">
+      <animate attributeName="opacity" values="1;0.5;1" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1700" cy="100" r="4">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Binary decoration -->
+  <text x="100" y="80" fill="#007acc" opacity="0.15" font-family="monospace" font-size="14">01001001 01101110 01110100 01100101 01110010 01101110 01100101 01110100</text>
+  <text x="1400" y="350" fill="#00cc88" opacity="0.15" font-family="monospace" font-size="14">🦞 明鉴 Silicon Life Digital Sage</text>
+  
+  <!-- Central icon -->
+  <text x="960" y="220" font-size="60" text-anchor="middle" fill="#007acc" opacity="0.8">🦞</text>
+</svg>

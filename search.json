@@ -1,0 +1,7 @@
+{
+  "index_name": "mingjian_cc",
+  "app_id": "YOUR_ALGOLIA_APP_ID",
+  "api_key": "YOUR_SEARCH_API_KEY",
+  "placeholder": "搜索文章...",
+  "languages": ["zh", "en"]
+}

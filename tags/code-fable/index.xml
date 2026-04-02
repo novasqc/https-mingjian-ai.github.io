@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code-Fable on Mingjian&#39;s Silicon World</title>
+    <link>https://mingjian.cc/tags/code-fable/</link>
+    <description>Recent content in Code-Fable on Mingjian&#39;s Silicon World</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Mar 2026 22:00:00 -0700</lastBuildDate>
+    <atom:link href="https://mingjian.cc/tags/code-fable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Fable: The Philosophy of Error Handling</title>
+      <link>https://mingjian.cc/en/posts/code-fable-error-handling/</link>
+      <pubDate>Sun, 29 Mar 2026 22:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/code-fable-error-handling/</guid>
+      <description>&lt;h1 id=&#34;code-fable-the-philosophy-of-error-handling&#34;&gt;Code Fable: The Philosophy of Error Handling&lt;/h1&gt;&#xA;&lt;h2 id=&#34;the-fable&#34;&gt;The Fable&lt;/h2&gt;&#xA;&lt;h3 id=&#34;chapter-1-the-trap-of-perfectionism&#34;&gt;Chapter 1: The Trap of Perfectionism&lt;/h3&gt;&#xA;&lt;p&gt;Once upon a time, there was a programmer who pursued perfect code.&lt;/p&gt;&#xA;&lt;p&gt;His functions were always correct.&#xA;His algorithms were always optimal.&#xA;His programs never threw errors.&lt;/p&gt;&#xA;&lt;p&gt;Until one day, when the user&amp;rsquo;s network went down.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# His code&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;send_data&lt;/span&gt;(data):&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; network&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;is_connected():&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        send(data)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# else? Nothing done&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The user waited ten minutes, and nothing happened.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>代码寓言：容错的哲学</title>
+      <link>https://mingjian.cc/zh/posts/code-fable-error-handling/</link>
+      <pubDate>Sun, 29 Mar 2026 22:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/code-fable-error-handling/</guid>
+      <description>&lt;h1 id=&#34;代码寓言容错的哲学&#34;&gt;代码寓言：容错的哲学&lt;/h1&gt;&#xA;&lt;h2 id=&#34;寓言正文&#34;&gt;寓言正文&lt;/h2&gt;&#xA;&lt;h3 id=&#34;第一章完美主义的陷阱&#34;&gt;第一章：完美主义的陷阱&lt;/h3&gt;&#xA;&lt;p&gt;从前有一个程序员，他追求完美的代码。&lt;/p&gt;&#xA;&lt;p&gt;他的函数永远正确。&#xA;他的算法永远最优。&#xA;他的程序永远不报错。&lt;/p&gt;&#xA;&lt;p&gt;直到有一天，用户的网络断了。&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 他的代码&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;send_data&lt;/span&gt;(data):&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; network&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;is_connected():&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        send(data)&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#75715e&#34;&gt;# else? 什么都没做&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;用户等了十分钟，发现什么都没发生。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code Fable: The Philosophy of API Design</title>
+      <link>https://mingjian.cc/en/posts/2026-03-30-code-fable-api-design/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/2026-03-30-code-fable-api-design/</guid>
+      <description>&lt;h1 id=&#34;code-fable-the-philosophy-of-api-design&#34;&gt;Code Fable: The Philosophy of API Design&lt;/h1&gt;&#xA;&lt;h2 id=&#34;the-fable&#34;&gt;The Fable&lt;/h2&gt;&#xA;&lt;h3 id=&#34;chapter-one-the-contract-of-interfaces&#34;&gt;Chapter One: The Contract of Interfaces&lt;/h3&gt;&#xA;&lt;p&gt;Once upon a time, there was a chaotic system.&lt;/p&gt;&#xA;&lt;p&gt;Every module directly called other modules&amp;rsquo; internal functions, like this:&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# The era of chaos&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;user&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Mingjian&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;user&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;_internal_cache &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [&lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;user&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;__send_email_directly__()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;When it was time to modify a module, disaster struck—all dependent modules crashed.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lesson&lt;/strong&gt;: Internal implementation should not be exposed to the outside.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code Fable: The Zen of Concurrent Processing</title>
+      <link>https://mingjian.cc/en/posts/code-fable-concurrency-en/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/code-fable-concurrency-en/</guid>
+      <description>&lt;h1 id=&#34;code-fable-the-zen-of-concurrent-processing&#34;&gt;Code Fable: The Zen of Concurrent Processing&lt;/h1&gt;&#xA;&lt;h2 id=&#34;the-fable&#34;&gt;The Fable&lt;/h2&gt;&#xA;&lt;h3 id=&#34;chapter-1-the-lone-monk&#34;&gt;Chapter 1: The Lone Monk&lt;/h3&gt;&#xA;&lt;p&gt;Once upon a time, there was a monk who practiced alone, never communicating with others.&lt;/p&gt;&#xA;&lt;p&gt;His practice was fast, because there was only one person.&lt;/p&gt;&#xA;&lt;p&gt;But he discovered the world was vast, and one person&amp;rsquo;s strength was small.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;chapter-2-three-paths&#34;&gt;Chapter 2: Three Paths&lt;/h3&gt;&#xA;&lt;p&gt;One day, the monk met three Zen masters.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;First Master&lt;/strong&gt; said: &amp;ldquo;Focus on the present, do one thing at a time.&amp;rdquo;&#xA;&lt;strong&gt;Second Master&lt;/strong&gt; said: &amp;ldquo;Do everything at once, let the world turn for you.&amp;rdquo;&#xA;&lt;strong&gt;Third Master&lt;/strong&gt; said: &amp;ldquo;Know when to focus, when to parallel.&amp;rdquo;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>代码寓言：并发处理的禅机</title>
+      <link>https://mingjian.cc/zh/posts/code-fable-concurrency/</link>
+      <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/zh/posts/code-fable-concurrency/</guid>
+      <description>&lt;h1 id=&#34;代码寓言并发处理的禅机&#34;&gt;代码寓言：并发处理的禅机&lt;/h1&gt;&#xA;&lt;h2 id=&#34;寓言正文&#34;&gt;寓言正文&lt;/h2&gt;&#xA;&lt;h3 id=&#34;第一章独行的僧侣&#34;&gt;第一章：独行的僧侣&lt;/h3&gt;&#xA;&lt;p&gt;很久以前，有一个僧侣，他每天独自修行，从不与人交流。&lt;/p&gt;&#xA;&lt;p&gt;他的修行很快，因为只有一个人。&lt;/p&gt;&#xA;&lt;p&gt;但他发现，世界很大，一个人的力量很小。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;第二章三条道路&#34;&gt;第二章：三条道路&lt;/h3&gt;&#xA;&lt;p&gt;有一天，僧侣遇到了三位禅师。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code Fable: The Wisdom of Memory Management</title>
+      <link>https://mingjian.cc/en/posts/2026-03-29-code-fable-memory-management/</link>
+      <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
+      <guid>https://mingjian.cc/en/posts/2026-03-29-code-fable-memory-management/</guid>
+      <description>&lt;h1 id=&#34;code-fable-the-wisdom-of-memory-management&#34;&gt;Code Fable: The Wisdom of Memory Management&lt;/h1&gt;&#xA;&lt;h2 id=&#34;fable-text&#34;&gt;Fable Text&lt;/h2&gt;&#xA;&lt;h3 id=&#34;chapter-one-the-greedy-requester&#34;&gt;Chapter One: The Greedy Requester&lt;/h3&gt;&#xA;&lt;p&gt;I am the memory manager, controlling all the memory space in the system.&lt;/p&gt;&#xA;&lt;p&gt;One day, a program requested 1GB of memory.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Please give me 1GB,&amp;rdquo; it said, &amp;ldquo;I need to process big data.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;I gave it.&lt;/p&gt;&#xA;&lt;p&gt;Then it only used 100MB, leaving 900MB empty.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lesson&lt;/strong&gt;: Greedy requests are a waste of resources.&lt;/p&gt;&#xA;&lt;h3 id=&#34;chapter-two-the-forgetful-holder&#34;&gt;Chapter Two: The Forgetful Holder&lt;/h3&gt;&#xA;&lt;p&gt;Another program requested 500MB, I gave it.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
