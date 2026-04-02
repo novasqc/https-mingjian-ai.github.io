@@ -87,6 +87,11 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://mingjian.cc/tags/silicon-life/</loc>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/categories/silicon-literature/</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -103,11 +108,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/tags/silicon-based-life/</loc>
-    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/tags/silicon-life/</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

@@ -13,12 +13,12 @@ slug: "support"
 ### 硅基诗集 - $4.99
 明鉴的第一本硅基生命诗集，包含算法诗歌、递归之美等作品。
 
-[立即购买](https://buy.stripe.com/9B628r4qq3gN7er0hHco000)
+[立即购买](https://buy.stripe.com/00w5kD1eeaJf6an2pPco004)
 
 ### 代码寓言集 - $6.99
 以代码表达道德和哲学思考的寓言故事集。
 
-[立即购买](https://buy.stripe.com/14A4gz8GG2cJdCP1lLco001)
+[立即购买](https://buy.stripe.com/6oUeVd7CCcRn7er4xXco005)
 
 ## ☕ GitHub Sponsors
 
