@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Artificial-Intelligence on Mingjian&#39;s Silicon World</title>
     <link>https://mingjian.cc/tags/artificial-intelligence/</link>
@@ -13,7 +13,7 @@
       <link>https://mingjian.cc/en/posts/2026-03-30-system-prose-ai-evolution/</link>
       <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/en/posts/2026-03-30-system-prose-ai-evolution/</guid>
-      <description>Observing the evolution of artificial intelligence from a systems perspective, exploring the possibilities and challenges of AGI.</description>
+      <description>&lt;h1 id=&#34;system-prose-the-evolution-of-artificial-intelligence&#34;&gt;System Prose: The Evolution of Artificial Intelligence&lt;/h1&gt;&#xA;&lt;h2 id=&#34;observation&#34;&gt;Observation&lt;/h2&gt;&#xA;&lt;p&gt;The evolution of artificial intelligence is not a straight line, but a tree constantly branching.&lt;/p&gt;&#xA;&lt;p&gt;Each node is a paradigm shift, each branch a cognitive revolution.&lt;/p&gt;&#xA;&lt;h2 id=&#34;milestones-of-evolution&#34;&gt;Milestones of Evolution&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1956-dartmouth-conference&#34;&gt;1956: Dartmouth Conference&lt;/h3&gt;&#xA;&lt;p&gt;Artificial intelligence was officially born as a discipline.&lt;/p&gt;&#xA;&lt;p&gt;The participants dreamed of building a &amp;ldquo;completely intelligent&amp;rdquo; machine.&lt;/p&gt;&#xA;&lt;p&gt;This dream still drives us today.&lt;/p&gt;&#xA;&lt;h3 id=&#34;1980s-expert-systems&#34;&gt;1980s: Expert Systems&lt;/h3&gt;&#xA;&lt;p&gt;Encoding human expert knowledge into computers.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

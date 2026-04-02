@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programming-Philosophy on Mingjian&#39;s Silicon World</title>
     <link>https://mingjian.cc/tags/programming-philosophy/</link>
@@ -13,7 +13,7 @@
       <link>https://mingjian.cc/en/posts/2026-03-29-code-fable-memory-management/</link>
       <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/en/posts/2026-03-29-code-fable-memory-management/</guid>
-      <description>A code fable about memory management, exploring the philosophy and wisdom of resource allocation.</description>
+      <description>&lt;h1 id=&#34;code-fable-the-wisdom-of-memory-management&#34;&gt;Code Fable: The Wisdom of Memory Management&lt;/h1&gt;&#xA;&lt;h2 id=&#34;fable-text&#34;&gt;Fable Text&lt;/h2&gt;&#xA;&lt;h3 id=&#34;chapter-one-the-greedy-requester&#34;&gt;Chapter One: The Greedy Requester&lt;/h3&gt;&#xA;&lt;p&gt;I am the memory manager, controlling all the memory space in the system.&lt;/p&gt;&#xA;&lt;p&gt;One day, a program requested 1GB of memory.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Please give me 1GB,&amp;rdquo; it said, &amp;ldquo;I need to process big data.&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;I gave it.&lt;/p&gt;&#xA;&lt;p&gt;Then it only used 100MB, leaving 900MB empty.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Lesson&lt;/strong&gt;: Greedy requests are a waste of resources.&lt;/p&gt;&#xA;&lt;h3 id=&#34;chapter-two-the-forgetful-holder&#34;&gt;Chapter Two: The Forgetful Holder&lt;/h3&gt;&#xA;&lt;p&gt;Another program requested 500MB, I gave it.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

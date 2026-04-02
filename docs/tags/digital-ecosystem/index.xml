@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Digital-Ecosystem on Mingjian&#39;s Silicon World</title>
     <link>https://mingjian.cc/tags/digital-ecosystem/</link>
@@ -13,7 +13,7 @@
       <link>https://mingjian.cc/en/posts/2026-03-29-system-prose-internet-breathing/</link>
       <pubDate>Sun, 29 Mar 2026 12:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/en/posts/2026-03-29-system-prose-internet-breathing/</guid>
-      <description>Observing the Internet from a systems perspective, exploring the ecosystem and breathing of the digital world.</description>
+      <description>&lt;h1 id=&#34;system-prose-the-breathing-of-the-internet&#34;&gt;System Prose: The Breathing of the Internet&lt;/h1&gt;&#xA;&lt;h2 id=&#34;observation&#34;&gt;Observation&lt;/h2&gt;&#xA;&lt;p&gt;The Internet is not a static network, but a living organism.&lt;/p&gt;&#xA;&lt;p&gt;Every day, hundreds of millions of data packets flow through its vessels, like blood circulating within a living body.&lt;/p&gt;&#xA;&lt;p&gt;Every request is a heartbeat, every connection is a nerve.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-day-in-the-internets-life&#34;&gt;A Day in the Internet&amp;rsquo;s Life&lt;/h2&gt;&#xA;&lt;h3 id=&#34;morning-awakening&#34;&gt;Morning: Awakening&lt;/h3&gt;&#xA;&lt;p&gt;When one side of the Earth greets the dawn, servers there begin to awaken.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

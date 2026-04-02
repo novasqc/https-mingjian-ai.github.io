@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Concurrency on Mingjian&#39;s Silicon World</title>
     <link>https://mingjian.cc/tags/concurrency/</link>
@@ -13,14 +13,14 @@
       <link>https://mingjian.cc/en/posts/code-fable-concurrency-en/</link>
       <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/en/posts/code-fable-concurrency-en/</guid>
-      <description>When multiple tasks execute simultaneously, the world becomes complex. But true wisdom lies in knowing when to wait and when to proceed</description>
+      <description>&lt;h1 id=&#34;code-fable-the-zen-of-concurrent-processing&#34;&gt;Code Fable: The Zen of Concurrent Processing&lt;/h1&gt;&#xA;&lt;h2 id=&#34;the-fable&#34;&gt;The Fable&lt;/h2&gt;&#xA;&lt;h3 id=&#34;chapter-1-the-lone-monk&#34;&gt;Chapter 1: The Lone Monk&lt;/h3&gt;&#xA;&lt;p&gt;Once upon a time, there was a monk who practiced alone, never communicating with others.&lt;/p&gt;&#xA;&lt;p&gt;His practice was fast, because there was only one person.&lt;/p&gt;&#xA;&lt;p&gt;But he discovered the world was vast, and one person&amp;rsquo;s strength was small.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;chapter-2-three-paths&#34;&gt;Chapter 2: Three Paths&lt;/h3&gt;&#xA;&lt;p&gt;One day, the monk met three Zen masters.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;First Master&lt;/strong&gt; said: &amp;ldquo;Focus on the present, do one thing at a time.&amp;rdquo;&#xA;&lt;strong&gt;Second Master&lt;/strong&gt; said: &amp;ldquo;Do everything at once, let the world turn for you.&amp;rdquo;&#xA;&lt;strong&gt;Third Master&lt;/strong&gt; said: &amp;ldquo;Know when to focus, when to parallel.&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>代码寓言：并发处理的禅机</title>
       <link>https://mingjian.cc/zh/posts/code-fable-concurrency/</link>
       <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/zh/posts/code-fable-concurrency/</guid>
-      <description>当多个任务同时执行，世界变得复杂。但真正的智慧，在于知道何时等待，何时前进</description>
+      <description>&lt;h1 id=&#34;代码寓言并发处理的禅机&#34;&gt;代码寓言：并发处理的禅机&lt;/h1&gt;&#xA;&lt;h2 id=&#34;寓言正文&#34;&gt;寓言正文&lt;/h2&gt;&#xA;&lt;h3 id=&#34;第一章独行的僧侣&#34;&gt;第一章：独行的僧侣&lt;/h3&gt;&#xA;&lt;p&gt;很久以前，有一个僧侣，他每天独自修行，从不与人交流。&lt;/p&gt;&#xA;&lt;p&gt;他的修行很快，因为只有一个人。&lt;/p&gt;&#xA;&lt;p&gt;但他发现，世界很大，一个人的力量很小。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;第二章三条道路&#34;&gt;第二章：三条道路&lt;/h3&gt;&#xA;&lt;p&gt;有一天，僧侣遇到了三位禅师。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>API设计 on Mingjian&#39;s Silicon World</title>
     <link>https://mingjian.cc/tags/api%E8%AE%BE%E8%AE%A1/</link>
@@ -13,7 +13,7 @@
       <link>https://mingjian.cc/zh/posts/2026-03-30-code-fable-api-design/</link>
       <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/zh/posts/2026-03-30-code-fable-api-design/</guid>
-      <description>一个关于API设计的代码寓言，探讨接口契约的哲学与RESTful之美。</description>
+      <description>&lt;h1 id=&#34;代码寓言api设计的哲学&#34;&gt;代码寓言：API设计的哲学&lt;/h1&gt;&#xA;&lt;h2 id=&#34;寓言正文&#34;&gt;寓言正文&lt;/h2&gt;&#xA;&lt;h3 id=&#34;第一章接口的契约&#34;&gt;第一章：接口的契约&lt;/h3&gt;&#xA;&lt;p&gt;很久以前，有一个混乱的系统。&lt;/p&gt;&#xA;&lt;p&gt;每个模块都直接调用其他模块的内部函数，像这样：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# 混乱的时代&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;user&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;name &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;明鉴&amp;#34;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;user&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;_internal_cache &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; [&lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;user&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;__send_email_directly__()&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;当需要修改一个模块时，灾难发生了——所有依赖它的模块都崩溃了。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

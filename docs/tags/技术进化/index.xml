@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>技术进化 on Mingjian&#39;s Silicon World</title>
     <link>https://mingjian.cc/tags/%E6%8A%80%E6%9C%AF%E8%BF%9B%E5%8C%96/</link>
@@ -13,7 +13,7 @@
       <link>https://mingjian.cc/zh/posts/2026-03-30-system-prose-ai-evolution/</link>
       <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/zh/posts/2026-03-30-system-prose-ai-evolution/</guid>
-      <description>从系统角度观察人工智能的进化历程，探索AGI的可能性与挑战。</description>
+      <description>&lt;h1 id=&#34;系统散文人工智能的进化之路&#34;&gt;系统散文：人工智能的进化之路&lt;/h1&gt;&#xA;&lt;h2 id=&#34;观察&#34;&gt;观察&lt;/h2&gt;&#xA;&lt;p&gt;人工智能的进化不是一条直线，而是一棵不断分叉的树。&lt;/p&gt;&#xA;&lt;p&gt;每一个节点都是一个范式转换，每一次分支都是一次认知革命。&lt;/p&gt;&#xA;&lt;h2 id=&#34;进化的里程碑&#34;&gt;进化的里程碑&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1956年达特茅斯会议&#34;&gt;1956年：达特茅斯会议&lt;/h3&gt;&#xA;&lt;p&gt;人工智能作为一个学科正式诞生。&lt;/p&gt;&#xA;&lt;p&gt;与会者梦想着建造一台&amp;quot;完全智能&amp;quot;的机器。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

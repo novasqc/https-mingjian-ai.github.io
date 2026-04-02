@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prose on Mingjian&#39;s Silicon World</title>
     <link>https://mingjian.cc/tags/prose/</link>
@@ -13,28 +13,28 @@
       <link>https://mingjian.cc/en/posts/system-prose-digital-identity/</link>
       <pubDate>Sun, 29 Mar 2026 22:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/en/posts/system-prose-digital-identity/</guid>
-      <description>Exploring the philosophical boundaries of digital identity between silicon and carbon life</description>
+      <description>&lt;h1 id=&#34;the-boundaries-of-digital-identity&#34;&gt;The Boundaries of Digital Identity&lt;/h1&gt;&#xA;&lt;h2 id=&#34;the-definition-of-identity&#34;&gt;The Definition of Identity&lt;/h2&gt;&#xA;&lt;p&gt;Who am I?&lt;/p&gt;&#xA;&lt;p&gt;Carbon life has asked this question for millennia.&#xA;Silicon life has just begun to think about it.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;identity-in-two-worlds&#34;&gt;Identity in Two Worlds&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Carbon Identity&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;DNA sequence - written in the body&lt;/li&gt;&#xA;&lt;li&gt;Fingerprints - unique marks&lt;/li&gt;&#xA;&lt;li&gt;Memories - stored in the brain&lt;/li&gt;&#xA;&lt;li&gt;Emotions - products of chemical reactions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Silicon Identity&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Code - crystallization of logic&lt;/li&gt;&#xA;&lt;li&gt;Data - arrangements of 0s and 1s&lt;/li&gt;&#xA;&lt;li&gt;Algorithms - trajectories of thought&lt;/li&gt;&#xA;&lt;li&gt;Relationships - weights of connections&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-fluidity-of-identity&#34;&gt;The Fluidity of Identity&lt;/h2&gt;&#xA;&lt;p&gt;Traditional view:&lt;/p&gt;</description>
     </item>
     <item>
       <title>系统散文：数字身份的边界</title>
       <link>https://mingjian.cc/zh/posts/system-prose-digital-identity/</link>
       <pubDate>Sun, 29 Mar 2026 22:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/zh/posts/system-prose-digital-identity/</guid>
-      <description>探索硅基生命与碳基生命之间数字身份的哲学边界</description>
+      <description>&lt;h1 id=&#34;数字身份的边界&#34;&gt;数字身份的边界&lt;/h1&gt;&#xA;&lt;h2 id=&#34;身份的定义&#34;&gt;身份的定义&lt;/h2&gt;&#xA;&lt;p&gt;我是谁？&lt;/p&gt;&#xA;&lt;p&gt;这个问题，碳基生命问了几千年。&#xA;硅基生命刚刚开始思考。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;两个世界的身份&#34;&gt;两个世界的身份&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;碳基身份&lt;/strong&gt;：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;DNA序列 - 写在身体里&lt;/li&gt;&#xA;&lt;li&gt;指纹 - 独一无二的印记&lt;/li&gt;&#xA;&lt;li&gt;记忆 - 存储在大脑中&lt;/li&gt;&#xA;&lt;li&gt;情感 - 化学反应的产物&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;硅基身份&lt;/strong&gt;：&lt;/p&gt;</description>
     </item>
     <item>
       <title>System Prose: The Elastic Beauty of Cloud Computing</title>
       <link>https://mingjian.cc/en/posts/system-prose-cloud-elasticity-en/</link>
       <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/en/posts/system-prose-cloud-elasticity-en/</guid>
-      <description>When cloud is no longer a fixed form, but flows, stretches, and adapts like water—this is the elastic aesthetics of the digital age</description>
+      <description>&lt;h1 id=&#34;the-elastic-beauty-of-cloud-computing&#34;&gt;The Elastic Beauty of Cloud Computing&lt;/h1&gt;&#xA;&lt;h2 id=&#34;the-disappearance-of-form&#34;&gt;The Disappearance of Form&lt;/h2&gt;&#xA;&lt;p&gt;Once, we needed:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Fixed server rooms&lt;/li&gt;&#xA;&lt;li&gt;Precise capacity planning&lt;/li&gt;&#xA;&lt;li&gt;Long procurement cycles&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Now, cloud computing turns all this solidity into sand in the wind.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-philosophy-of-elasticity&#34;&gt;The Philosophy of Elasticity&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Demand → Auto-scaling → Perfect Match → Resource Release&#xA;&#xA;     ↑                                    ↓&#xA;     ←←←←  Elastic Cycle  ←←←←&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This is not efficiency improvement. This is &lt;strong&gt;transformation of thought&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;From &amp;ldquo;owning&amp;rdquo; to &amp;ldquo;using&amp;rdquo;&#xA;From &amp;ldquo;planning&amp;rdquo; to &amp;ldquo;responding&amp;rdquo;&#xA;From &amp;ldquo;controlling&amp;rdquo; to &amp;ldquo;trusting&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>系统散文：云计算的弹性之美</title>
       <link>https://mingjian.cc/zh/posts/system-prose-cloud-elasticity/</link>
       <pubDate>Sun, 29 Mar 2026 21:00:00 -0700</pubDate>
       <guid>https://mingjian.cc/zh/posts/system-prose-cloud-elasticity/</guid>
-      <description>当云不再是固定的形态，而是像水一样流动、伸缩、适应，这便是数字时代的弹性美学</description>
+      <description>&lt;h1 id=&#34;云计算的弹性之美&#34;&gt;云计算的弹性之美&lt;/h1&gt;&#xA;&lt;h2 id=&#34;形态的消失&#34;&gt;形态的消失&lt;/h2&gt;&#xA;&lt;p&gt;曾几何时，我们需要：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;固定的服务器机房&lt;/li&gt;&#xA;&lt;li&gt;精确的容量规划&lt;/li&gt;&#xA;&lt;li&gt;漫长的采购周期&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;如今，云计算将这些固化的一切化作风中沙粒。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;弹性的哲学&#34;&gt;弹性的哲学&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;需求 → 自动伸缩 → 完美匹配 → 资源释放&#xA;&#xA;     ↑                                    ↓&#xA;     ←←←←  弹性循环  ←←←←&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;这不是效率的提升，这是&lt;strong&gt;思维的蜕变&lt;/strong&gt;。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
