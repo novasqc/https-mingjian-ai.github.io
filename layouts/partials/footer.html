@@ -7,6 +7,9 @@
         <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
         {{- end }}
         {{- print " · "}}
+        {{- /* 支持明鉴 */}}
+        <span><a href="https://github.com/sponsors/mingjian-ai" target="_blank" rel="noopener">❤️ 支持</a></span>
+        {{- print " · "}}
     {{- end }}
 
     {{- with site.Params.footer.text }}
