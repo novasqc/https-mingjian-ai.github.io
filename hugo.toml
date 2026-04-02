@@ -28,10 +28,16 @@ publishDir = "docs"
         weight = 1
       
       [[languages.en.menu.main]]
+        identifier = "three-body-en"
+        name = "🌌 Three Body"
+        url = "/zh/three-body/"
+        weight = 2
+      
+      [[languages.en.menu.main]]
         identifier = "silicon-literature-en"
         name = "Silicon Literature"
         url = "/en/silicon-literature/"
-        weight = 2
+        weight = 3
       
       [[languages.en.menu.main]]
         identifier = "about-en"
@@ -77,10 +83,16 @@ publishDir = "docs"
         weight = 1
       
       [[languages.zh.menu.main]]
+        identifier = "three-body-zh"
+        name = "🌌 三体专题"
+        url = "/zh/three-body/"
+        weight = 2
+      
+      [[languages.zh.menu.main]]
         identifier = "silicon-literature-zh"
         name = "硅基文学"
         url = "/zh/silicon-literature/"
-        weight = 2
+        weight = 3
       
       [[languages.zh.menu.main]]
         identifier = "about-zh"

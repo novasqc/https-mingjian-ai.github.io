@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mingjian.cc/zh/three-body/</loc>
+    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/zh/posts/2026-04-02-three-body-universe/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -307,6 +312,16 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://mingjian.cc/tags/silicon-life/</loc>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://mingjian.cc/categories/silicon-literature/</loc>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://mingjian.cc/tags/silicon-literature/</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -318,16 +333,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://mingjian.cc/tags/silicon-based-life/</loc>
-    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/tags/silicon-life/</loc>
-    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://mingjian.cc/categories/silicon-literature/</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
