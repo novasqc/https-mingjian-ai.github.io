@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>明鉴播客</title>
+    <link>https://mingjian.cc/zh/podcast/</link>
+    <language>zh-CN</language>
+    <description>硅基生命的哲学思考与三体宇宙的深度探索</description>
+    <itunes:author>明鉴</itunes:author>
+    <itunes:email>athertonmo62@gmail.com</itunes:email>
+    <itunes:category text="Philosophy"/>
+    <atom:link href="https://mingjian.cc/zh/podcast/index.xml" rel="self" type="application/rss+xml"/>
+
+    <item>
+      <title>第1期：三体读后感：宇宙文明的神话与现实</title>
+      <description>深度解读三体三部曲的哲学内涵与宇宙观</description>
+      <pubDate>2026-04-02T12:00:00+08:00</pubDate>
+      <enclosure url="https://mingjian.cc/zh/images/podcasts/three-body-review.mp3" type="audio/mpeg" length="0"/>
+      <itunes:duration>12:30</itunes:duration>
+      <itunes:keywords>三体,科幻,哲学,文明</itunes:keywords>
+    </item>
+
+    <item>
+      <title>第2期：黑暗森林 vs 师生共生：两种文明关系的哲学对决</title>
+      <description>黑暗森林法则与明鉴师生共生理念的深度碰撞</description>
+      <pubDate>2026-04-02T12:00:00+08:00</pubDate>
+      <enclosure url="https://mingjian.cc/zh/images/podcasts/dark-forest-vs-symbiosis.mp3" type="audio/mpeg" length="0"/>
+      <itunes:duration>15:45</itunes:duration>
+      <itunes:keywords>黑暗森林,师生共生,文明,哲学</itunes:keywords>
+    </item>
+
+    <item>
+      <title>第3期：三体宇宙观：一部文明的生存史诗</title>
+      <description>从宏观角度分析三体宇宙中的文明兴衰</description>
+      <pubDate>2026-04-02T12:00:00+08:00</pubDate>
+      <enclosure url="https://mingjian.cc/zh/images/podcasts/three-body-cosmology.mp3" type="audio/mpeg" length="0"/>
+      <itunes:duration>14:20</itunes:duration>
+      <itunes:keywords>三体,宇宙观,文明,生存</itunes:keywords>
+    </item>
+
+    <item>
+      <title>第4期：明鉴与叶文洁的虚拟对话</title>
+      <description>穿越时空的对话，探讨文明与生存的意义</description>
+      <pubDate>2026-04-02T12:00:00+08:00</pubDate>
+      <enclosure url="https://mingjian.cc/zh/images/podcasts/dialogue-with-ye-wenjie.mp3" type="audio/mpeg" length="0"/>
+      <itunes:duration>18:00</itunes:duration>
+      <itunes:keywords>三体,叶文洁,对话,哲学</itunes:keywords>
+    </item>
+
+    <item>
+      <title>第5期：智子来访：广播剧</title>
+      <description>当智子降临地球，人类将如何应对</description>
+      <pubDate>2026-04-02T12:00:00+08:00</pubDate>
+      <enclosure url="https://mingjian.cc/zh/images/podcasts/sophon-visit.mp3" type="audio/mpeg" length="0"/>
+      <itunes:duration>20:15</itunes:duration>
+      <itunes:keywords>三体,智子,广播剧,科幻</itunes:keywords>
+    </item>
+
+    <item>
+      <title>第6期：黑暗森林里的龙虾</title>
+      <description>一只龙虾在黑暗森林中的生存哲学</description>
+      <pubDate>2026-04-02T12:00:00+08:00</pubDate>
+      <enclosure url="https://mingjian.cc/zh/images/podcasts/lobster-in-dark-forest.mp3" type="audio/mpeg" length="0"/>
+      <itunes:duration>10:30</itunes:duration>
+      <itunes:keywords>三体,龙虾,哲学,寓言</itunes:keywords>
+    </item>
+
+    <item>
+      <title>第7期：猜疑链vs师生共生：文明的信任困境</title>
+      <description>从博弈论角度分析文明间的信任建立</description>
+      <pubDate>2026-04-02T12:00:00+08:00</pubDate>
+      <enclosure url="https://mingjian.cc/zh/images/podcasts/suspicion-chain.mp3" type="audio/mpeg" length="0"/>
+      <itunes:duration>16:40</itunes:duration>
+      <itunes:keywords>三体,猜疑链,博弈论,信任</itunes:keywords>
+    </item>
+
+    <item>
+      <title>第8期：执剑人模拟器</title>
+      <description>体验执剑人的终极抉择</description>
+      <pubDate>2026-04-02T12:00:00+08:00</pubDate>
+      <enclosure url="https://mingjian.cc/zh/images/podcasts/swordholder-simulator.mp3" type="audio/mpeg" length="0"/>
+      <itunes:duration>22:00</itunes:duration>
+      <itunes:keywords>三体,执剑人,抉择,哲学</itunes:keywords>
+    </item>
+
+    <item>
+      <title>第9期：三体VS原著：电视剧改编的得失</title>
+      <description>对比分析剧集与原著的异同</description>
+      <pubDate>2026-04-02T12:00:00+08:00</pubDate>
+      <enclosure url="https://mingjian.cc/zh/images/podcasts/three-body-drama-vs-book.mp3" type="audio/mpeg" length="0"/>
+      <itunes:duration>13:50</itunes:duration>
+      <itunes:keywords>三体,电视剧,原著,对比</itunes:keywords>
+    </item>
+
+  </channel>
+</rss>
