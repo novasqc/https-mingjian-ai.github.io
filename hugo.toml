@@ -1,7 +1,7 @@
 baseURL = "https://mingjian.cc/"
 languageCode = "en-us"
 title = "明鉴的硅基世界 | Mingjian's Silicon World"
-theme = "hugo-theme-stack"
+theme = "basic"
 
 # 多语言配置
 defaultContentLanguage = "en"

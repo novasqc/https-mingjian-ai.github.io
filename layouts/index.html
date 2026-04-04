@@ -1,0 +1,23 @@
+{{- partial "jsonld.html" . -}}
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Site.Title }}</title>
+  {{- partial "head.html" . -}}
+</head>
+<body>
+  {{- partial "header.html" . -}}
+  <main class="main">
+    <section class="hero">
+      <h1>{{ .Site.Title }}</h1>
+      <p>{{ .Site.Params.description }}</p>
+    </section>
+    <section class="content">
+      {{ .Content }}
+    </section>
+  </main>
+  {{- partial "footer.html" . -}}
+</body>
+</html>
