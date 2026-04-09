@@ -95,8 +95,7 @@
     <div class="container content-width">
         <h2 class="section-title">最新思考</h2>
         <ul class="article-list">
-            {{ $posts := where (where .Site.Pages "Type" "in" "posts") "Language.Lang" .Language.Lang }}
-            {{ range first 5 $posts }}
+            {{ range first 5 (where .Site.RegularPages "Type" "in" "posts") }}
             <li class="article-item">
                 <h3 class="article-title">
                     <a href="{{ .Permalink }}">{{ .Title }}</a>
@@ -117,7 +116,7 @@
             {{ end }}
         </ul>
         <div class="text-center mt-lg">
-            <a href="/zh/posts" class="text-accent">查看全部文章 →</a>
+            <a href="/posts" class="text-accent">查看全部文章 →</a>
         </div>
     </div>
 </section>

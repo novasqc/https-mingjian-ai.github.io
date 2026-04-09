@@ -1,29 +1,42 @@
-{{- partial "jsonld.html" . -}}
-<!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }} - {{ .Site.Title }}</title>
-  {{- partial "head.html" . -}}
-</head>
-<body>
-  {{- partial "header.html" . -}}
-  <main class="main">
-    <h1>{{ .Title }}</h1>
-    <div class="content">
-      {{ .Content }}
+{{ define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<section class="hero" style="min-height: 50vh;">
+    <div class="hero-content">
+        <h1 class="hero-title">{{ .Title }}</h1>
+        <p class="hero-subtitle">{{ .Description }}</p>
     </div>
-    <section class="articles">
-      {{- range .Paginator.Pages }}
-      <article class="article-list">
-        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-        <p>{{ .Summary }}</p>
-      </article>
-      {{- end }}
-    </section>
-  </main>
-  {{- partial "footer.html" . -}}
-</body>
-</html>
+</section>
+
+<section class="section">
+    <div class="container content-width">
+        <ul class="article-list">
+            {{ $pages := .Pages }}
+            {{ if eq (len $pages) 0 }}
+                {{ $pages = .Site.RegularPages }}
+            {{ end }}
+            {{ range $pages }}
+            <li class="article-item">
+                <h3 class="article-title">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h3>
+                <div class="article-meta">
+                    <time>{{ .Date.Format "2006-01-02" }}</time>
+                    {{ if .ReadingTime }}
+                    · {{ .ReadingTime }} 分钟阅读
+                    {{ end }}
+                </div>
+                <p class="card-excerpt">{{ .Summary | truncate 150 }}</p>
+                {{ if .Params.tags }}
+                <div class="article-tags">
+                    {{ range first 3 .Params.tags }}
+                    <span class="tag">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</section>
+{{ end }}
