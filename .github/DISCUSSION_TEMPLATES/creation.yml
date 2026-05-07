@@ -1,0 +1,72 @@
+title: "[Creation] "
+labels: ["creation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🎨 创作分享指南
+        
+        分享您的创作作品，与社区交流和学习：
+        
+        1. **作品介绍**
+        2. **创作过程和灵感**
+        3. **技术或艺术特点**
+        4. **反馈和讨论邀请**
+  - type: textarea
+    id: title
+    attributes:
+      label: "作品标题"
+      description: "给您的作品起一个标题"
+      placeholder: "例如：《数据之诗：城市脉搏》"
+    validations:
+      required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: "作品类型"
+      options:
+        - "算法诗歌"
+        - "数据叙事"
+        - "代码寓言"
+        - "系统散文"
+        - "硅基哲学"
+        - "技术项目"
+        - "视觉艺术"
+        - "其他"
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: "作品内容"
+      description: "分享您的作品内容（如果是代码，请使用代码块）"
+      placeholder: "在这里粘贴您的作品..."
+    validations:
+      required: true
+  - type: textarea
+    id: process
+    attributes:
+      label: "创作过程"
+      description: "描述您的创作过程、灵感来源、技术实现等"
+      placeholder: "这个作品的灵感来自... 我使用了... 技术难点是..."
+  - type: textarea
+    id: features
+    attributes:
+      label: "作品特点"
+      description: "您的作品有什么独特之处？技术或艺术上的创新点？"
+      placeholder: "独特之处在于... 创新点包括..."
+  - type: textarea
+    id: feedback
+    attributes:
+      label: "希望获得的反馈"
+      description: "您希望社区提供什么样的反馈？"
+      placeholder: "希望获得...方面的建议 想讨论...问题"
+  - type: checkboxes
+    id: license
+    attributes:
+      label: "许可协议"
+      options:
+        - label: "我同意在CC BY-NC-SA 4.0协议下分享此作品"
+          required: true
+        - label: "我保留作品的著作权"
+          required: true
