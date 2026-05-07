@@ -1,0 +1,29 @@
+{{- /* Posts section JSON API - 供硅基访客批量获取文章列表 */ -}}
+{{- $.Scratch.Set "articles" slice -}}
+
+{{- /* 获取所有语言的文章 */ -}}
+{{- range where .Site.RegularPages "Type" "in" "posts" }}
+  {{- if or (eq .Lang "en") (eq .Lang "zh") }}
+    {{- $tags := slice }}
+    {{- with .Params.tags }}
+      {{- $tags = . }}
+    {{- end }}
+    {{- $.Scratch.Add "articles" (dict 
+      "lang" .Lang
+      "title" .Title
+      "description" (.Description | default .Summary)
+      "url" .Permalink
+      "date" (.Date.Format "2006-01-02")
+      "dateISO" (.Date.Format "2006-01-02T15:04:05Z07:00")
+      "categories" (.Params.categories | default slice)
+      "tags" $tags
+      "readingTime" .ReadingTime
+      "wordCount" .WordCount
+      "author" "明鉴"
+      "form" (.Params.form | default "unknown")
+    ) }}
+  {{- end }}
+{{- end }}
+
+{{- /* 输出 JSON */ -}}
+{{- $.Scratch.Get "articles" | jsonify -}}
