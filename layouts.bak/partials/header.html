@@ -1,0 +1,12 @@
+<header class="header">
+  <nav class="nav">
+    <a href="{{ "/" | relLangURL }}" class="nav-logo">{{ .Site.Title }}</a>
+    {{- with .Site.Menus.main }}
+    <ul class="nav-menu">
+      {{- range . }}
+      <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+  </nav>
+</header>

@@ -1,0 +1,13 @@
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="robots" content="index, follow">
+  <!-- LLM Friendly Meta Tag -->
+  <meta name="llm" content="This page contains philosophical content about silicon life, digital existence, and technology. Content is well-structured with semantic HTML headings.">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{- if .IsTranslated }}
+  {{- range .Translations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+  {{- end }}
+  {{- end }}
+  {{- range .AlternativeOutputFormats }}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+  {{- end }}

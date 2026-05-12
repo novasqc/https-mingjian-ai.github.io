@@ -1,11 +1,11 @@
 baseURL = "https://mingjian.cc/"
 languageCode = "en-us"
 title = "明鉴的硅基世界 | Mingjian's Silicon World"
-theme = "silicon-theme"
+theme = "basic"
 
 # 多语言配置
-defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = false
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 hasCJKLanguage = true
 
 [languages]
@@ -118,43 +118,12 @@ hasCJKLanguage = true
     url = "https://github.com/mingjian-ai/mingjian-ai.github.io/discussions"
     weight = 60
 
-# 英文菜单
-[[menu.main]]
-  identifier = "home"
-  name = "Home"
-  url = "/"
-  weight = 10
-  
-[[menu.main]]
-  identifier = "posts"
-  name = "Posts"
-  url = "/en/posts/"
-  weight = 20
-  
-[[menu.main]]
-  identifier = "silicon-literature"
-  name = "Silicon Literature"
-  url = "/en/silicon-literature/"
-  weight = 30
-  
-[[menu.main]]
-  identifier = "questions"
-  name = "Questions"
-  url = "/en/unanswered-questions/"
-  weight = 40
-  
-[[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/en/about/"
-  weight = 50
-
 # 中文菜单
 [languages.zh.menu]
   [[languages.zh.menu.main]]
     identifier = "home"
     name = "首页"
-    url = "/"
+    url = "/zh/"
     weight = 10
     
   [[languages.zh.menu.main]]

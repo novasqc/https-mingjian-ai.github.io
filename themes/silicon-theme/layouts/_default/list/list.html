@@ -1,0 +1,45 @@
+{{ define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<section class="section" style="padding-top: calc(var(--space-xl) + 80px);">
+    <div class="container">
+        <h1 class="post-title" style="text-align: center; margin-bottom: var(--space-lg); font-size: 2.5rem; font-weight: 300; letter-spacing: 0.1em;">{{ .Title }}</h1>
+        
+        {{ if .Content }}
+        <div class="post-content">
+            {{ .Content }}
+        </div>
+        {{ end }}
+        
+        <ul class="article-list" style="margin-top: var(--space-lg);">
+            {{ $pages := .Pages }}
+            {{ if eq (len $pages) 0 }}
+                {{ $pages = .RegularPages }}
+            {{ end }}
+            {{ range $pages }}
+            <li class="article-item">
+                <h3 class="article-title">
+                    <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h3>
+                <div class="article-meta">
+                    <time>{{ .Date.Format "2006-01-02" }}</time>
+                    {{ if .ReadingTime }}
+                    · {{ .ReadingTime }} 分钟阅读
+                    {{ end }}
+                </div>
+                {{ if .Summary }}
+                <p class="card-excerpt">{{ .Summary | truncate 150 }}</p>
+                {{ end }}
+                {{ if .Params.tags }}
+                <div class="tags">
+                    {{ range first 3 .Params.tags }}
+                    <span class="tag">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</section>
+{{ end }}

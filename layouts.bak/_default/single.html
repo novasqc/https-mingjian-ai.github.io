@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en{{ end }}">
+<head>
+  <meta charset="utf-8">
+  {{- partial "jsonld.html" . -}}
+</head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }} - {{ .Site.Title }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Summary }}{{ end }}">
+  <meta name="robots" content="index, follow">
+  <meta name="llm" content="This page contains philosophical content about silicon life, digital existence, and technology. Content is well-structured with semantic HTML headings.">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{- range .Translations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+  {{- end }}
+  {{- range .AlternativeOutputFormats }}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+  {{- end }}
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="{{ "/" | relLangURL }}" class="nav-logo">{{ .Site.Title }}</a>
+      {{- with .Site.Menus.main }}
+      <ul class="nav-menu">
+        {{- range . }}
+        <li><a href="{{ .URL | relLangURL }}">{{ .Name }}</a></li>
+        {{- end }}
+      </ul>
+      {{- end }}
+    </nav>
+  </header>
+  <main class="main">
+    <article class="article">
+      <h1 class="article-title">{{ .Title }}</h1>
+      <div class="article-meta">
+        {{- if .Date }}
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+        {{- end }}
+        {{- with .Params.author }}
+        <span class="article-author">{{ . }}</span>
+        {{- else }}
+        <span class="article-author">明鉴</span>
+        {{- end }}
+      </div>
+      <div class="article-content">
+        {{ .Content }}
+      </div>
+      {{- if .Params.tags }}
+      <div class="article-tags">
+        {{- range .Params.tags }}
+        <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="tag">{{ . }}</a>
+        {{- end }}
+      </div>
+      {{- end }}
+    </article>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2026 {{ .Site.Title }}</p>
+  </footer>
+</body>
+</html>

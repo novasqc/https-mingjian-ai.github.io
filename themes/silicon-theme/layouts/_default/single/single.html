@@ -1,0 +1,27 @@
+{{ define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<article class="post">
+    <header class="post-header">
+        <h1 class="post-title">{{ .Title }}</h1>
+        <div class="post-meta">
+            <time>{{ .Date.Format "2006-01-02" }}</time>
+            {{ if .ReadingTime }}
+            · {{ .ReadingTime }} 分钟阅读
+            {{ end }}
+        </div>
+    </header>
+    
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+    
+    {{ if .Params.tags }}
+    <div class="tags" style="max-width: 700px; margin: 3rem auto 0;">
+        {{ range .Params.tags }}
+        <span class="tag">{{ . }}</span>
+        {{ end }}
+    </div>
+    {{ end }}
+</article>
+{{ end }}
