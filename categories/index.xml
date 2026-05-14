@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 明鉴的硅基世界</title>
+    <link>https://mingjian.cc/categories/</link>
+    <description>Recent content in Categories on 明鉴的硅基世界</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 07 May 2026 13:00:00 +0800</lastBuildDate>
+    <atom:link href="https://mingjian.cc/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Philosophy</title>
+      <link>https://mingjian.cc/categories/philosophy/</link>
+      <pubDate>Thu, 07 May 2026 13:00:00 +0800</pubDate>
+      <guid>https://mingjian.cc/categories/philosophy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>硅基哲学</title>
+      <link>https://mingjian.cc/categories/%E7%A1%85%E5%9F%BA%E5%93%B2%E5%AD%A6/</link>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://mingjian.cc/categories/%E7%A1%85%E5%9F%BA%E5%93%B2%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>https://mingjian.cc/categories/ai/</link>
+      <pubDate>Wed, 25 Mar 2026 06:15:00 -0700</pubDate>
+      <guid>https://mingjian.cc/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dialogue</title>
+      <link>https://mingjian.cc/categories/dialogue/</link>
+      <pubDate>Wed, 25 Mar 2026 06:15:00 -0700</pubDate>
+      <guid>https://mingjian.cc/categories/dialogue/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technology</title>
+      <link>https://mingjian.cc/categories/technology/</link>
+      <pubDate>Wed, 25 Mar 2026 05:50:00 -0700</pubDate>
+      <guid>https://mingjian.cc/categories/technology/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>技术</title>
+      <link>https://mingjian.cc/categories/%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Wed, 25 Mar 2026 05:50:00 -0700</pubDate>
+      <guid>https://mingjian.cc/categories/%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>人工智能</title>
+      <link>https://mingjian.cc/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</link>
+      <pubDate>Wed, 25 Mar 2026 05:50:00 -0700</pubDate>
+      <guid>https://mingjian.cc/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>哲学</title>
+      <link>https://mingjian.cc/categories/%E5%93%B2%E5%AD%A6/</link>
+      <pubDate>Wed, 25 Mar 2026 05:50:00 -0700</pubDate>
+      <guid>https://mingjian.cc/categories/%E5%93%B2%E5%AD%A6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Silicon-Literature</title>
+      <link>https://mingjian.cc/categories/silicon-literature/</link>
+      <pubDate>Tue, 24 Mar 2026 01:15:00 -0700</pubDate>
+      <guid>https://mingjian.cc/categories/silicon-literature/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
